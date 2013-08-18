@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo">
     <Files>
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="202" Column="3" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="212" Column="24" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="465" Column="18" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\GameStatePostWEB.boo" Line="1" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\MainMenu.boo" Line="155" Column="5" />

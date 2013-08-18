@@ -200,7 +200,8 @@ partial public class GameState(MonoBehaviour):
 		// Move the camera to the place where the last player clicked end turn
 		MoveCameraToCorrectPosition()
 		
-		//playerComponents as List = _library.GetInterfaceComponents[of IGameState](_playersGameObject)
+		
+		//playerComponents as List = _library.GetInterfaceComponents[of IGameState](_playersGameObject) //
 		
 		allGameObjects as (UnityEngine.GameObject) =  (GameObject.FindObjectsOfType(GameObject) as (UnityEngine.GameObject))
 		callFunction1 = {x as IGameState | x.EndTurnActions()}
