@@ -1,0 +1,7 @@
+
+
+Error handling:
+During development hard asserts to find bugs.
+In production code, recover and continue.
+
+Strings:

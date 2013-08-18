@@ -1,0 +1,4 @@
+use start_game;
+mysql> insert into player set player_id=4,MapID=2,Player='Player2',VictoryResources=0,UniversalResources=300,Type='PlayerScript';
+
+mysql> alter table player drop primary key, add primary key(MapID,Player);

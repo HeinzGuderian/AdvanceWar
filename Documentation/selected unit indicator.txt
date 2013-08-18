@@ -1,0 +1,9 @@
+selected unit indicator
+
+Unitens typ
+textrad x16 y34
+textstorlek 6px
+
+variabler att skriva ut: AP/HP/Ptrl/Amo
+textstorlek 6px
+textposition x42 y102 

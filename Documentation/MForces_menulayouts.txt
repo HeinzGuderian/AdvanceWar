@@ -1,0 +1,191 @@
+-----------------------------------
+Main Menu
+	tx_mainmenu_gamelist
+	x21
+	y20
+
+		Scrollen till gamelist
+		tx_button_listcontrol1 (scrolla ner)
+		x46
+		y408
+
+		tx_button_listcontrol2 (scrolla upp)
+		x116
+		y408
+
+		tx_button_listcontrol3 (update list knappen)
+		x180
+		y408
+
+	tx_button_mainmenu_newgame
+	x332
+	y20
+
+	tx_button_mainmenu_help
+	x332
+	y172
+
+	tx_button_mainmenu_messages
+	x332
+	y323
+
+	tx_button_mainmenu_store
+	x523
+	y20
+
+	tx_button_mainmenu_contacts
+	x523
+	y172
+
+	tx_button_mainmenu_options
+	x523
+	y172
+
+	tx_button_mainmenu_exit
+	x651
+	y172
+
+-----------------------------------
+New Game
+	tx_button_contacts_backtomain
+	x27
+	y334
+
+	tx_button_newgame_currentarmy
+	x27
+	y29
+
+	tx_button_newgame_invitefriend
+	x455
+	y200
+
+	tx_button_newgame_nextarmy
+	x189
+	y200
+
+	tx_button_newgame_prevarmy
+	x27
+	y200
+
+	tx_button_newgame_random
+	x455
+	y334
+
+-----------------------------------
+Contacts
+	tx_button_contacts_addfriend
+	x333
+	y8
+
+	tx_button_contacts_blockuser
+	x333
+	y160
+
+	tx_button_contacts_backtomain
+	x333
+	y312
+
+	tx_contacts_friendlist
+	x9
+	y8
+
+	tx_button_mainmenu_gamelistitem ("listelementknappen" som används i alla listor,)
+	x28
+	y45 (+51 för varje ny listelement)
+		Scrollen till friendlist.
+		tx_button_listcontrol1 (scrolla ner)
+		x33
+		y396
+
+		tx_button_listcontrol2 (scrolla upp)
+		x103
+		y396
+
+		tx_button_listcontrol3 (update list knappen)
+		x164
+		y396
+	Skriv ut antal friends
+	x200
+	y34
+
+	tx_contacts_blockedlist
+	x536
+	y8
+	
+	tx_button_mainmenu_gamelistitem ("listelementknappen" som används i alla listor, här i blocklistan)
+	x555
+	y45
+
+	Scrollen till blockedlist.
+		tx_button_listcontrol1 (scrolla ner)
+		x564
+		y396
+
+		tx_button_listcontrol2 (scrolla upp)
+		x634
+		y396
+
+		tx_button_listcontrol3 (update list knappen)
+		x698
+		y396
+	Skriv ut antal blockade
+	x726
+	y34
+
+
+-----------------------------------
+Friend_submenu
+	tx_button_contacts_invitetogame
+	x242
+	y25
+
+	tx_button_contacts_removefriend
+	x242
+	y165
+
+	tx_button_newgame_backtomain
+	x242
+	y305
+-----------------------------------
+Bloclist_submenu
+	tx_button_contacts_report
+	x242
+	y25
+
+	tx_button_contacts_unblock
+	x242
+	y165
+
+	tx_button_newgame_backtomain
+	x242
+	y305
+
+tx_button_listcontrol1 x+0
+tx_button_listcontrol2 x+70
+tx_button_listcontrol3 x+134
+
+------------------------------------
+tx_notification_error
+x144
+y112
+	Knapp OK, inbakad i bilden:
+	x223 - 287
+	y186 - 218
+tx_notification_friendrequest
+x144
+y112
+	Knapp YES, inbakad i bilden:
+	x70 - 135
+	y186 - 218
+	Knapp Decide Later
+	x185 - 343
+	y186 - 218
+	Knapp NO
+	x377 - 441
+	y186 - 218
+tx_notification_notification
+x144
+y112
+	Knapp OK, inbakad i bilden:
+	x223 - 287
+	y186 - 218

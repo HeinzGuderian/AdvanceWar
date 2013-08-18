@@ -1,0 +1,5 @@
+use start_game;
+insert into player (MapID, Player, VictoryResources, UniversalResources,Type) 
+values(0,"Player1",0,300,"PlayerScript");
+insert into player (MapID, Player, VictoryResources, UniversalResources,Type) 
+values(0,"Player2",0,300,"PlayerScript");

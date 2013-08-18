@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2BBF512C-AC9F-9A09-96F5-73EA3D1C4C9F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-Boo</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_7;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program2/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program2/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\Exceptions\NotFoundException.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\BuyMenu.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\ContactsScript.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\DataScriptGUI.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\IGUI.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\IHighlight.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\MainMenu.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\MainMenuTwoPlayers.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\NewGameMenu.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\SelectMenu.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\UnitInfoFunctions.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GUI\testsceneMenu.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\ApplicationSettings.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\IGameState.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\IVRProducing.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\IVictoryCondition.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\VictoryConditions.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\GameState\testExtension.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\MainMenu\MainMenuScript.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\Monads\MaybeMonad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\BuildingSaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Buildings\CentralWareHouseSaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Buildings\FactorySaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Buildings\OilfieldSaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\INormalForm.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\ISaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\ISaveLoadGAme.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\ISaveLoadUnit.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\LoginSaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\LoginScreenSerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\PlayerSaveLoad.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\SaveLoadMultiplayerAspectClass.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\BuildingSerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\CentralWarehouseSerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\FactorySerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\LoadSaveFiles.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\OilfieldScriptSerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadUnitSerialisable.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\TroopScriptSerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\TroopScriptSaveLoadMultiplayer.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Units\SaveLoadLogi.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\GameStatePostWEB.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Combat\ICombat.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\AntiAirTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\ArmouredTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\ArtyTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\BuildingEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\CentralWareHouseEconomyScript.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\EconomyAspectClass.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\EngyTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\LogiTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\MechTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\MotoTroopEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Economy\TroopEconomyScript.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Move\BuildingMove.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Move\IMove.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Move\MoveAspectClass.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Sight\SightAspectScript.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Sight\SightPlayerScript.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Sight\SightTroop.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Supply\ISupplyTransfer.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Supply\SupplyAspectClass.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Supply\SupplyOilfieldScript.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Supply\SupplyTroopScript.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Supply\SupplyUnitScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\DataScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\IData.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Buildings\BuildingScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Buildings\CentralWarehouseScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Buildings\FactoryScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Buildings\OilfieldScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\IAfterTeamSwitch.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\IDisplayInfo.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\IRace.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\ITeam.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Player\PlayerScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\RaceScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamBuildingScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\GueriallRace\GuerillaRace.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\ImperialRace.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\AntiairTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\ArmoredTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\ArtyTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\CommTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\CorvetteTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\CruiserTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\EngyTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\ITroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\LogiTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\LowlandDummy.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\MechTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\MotoTroop.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\TestInfantry.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\lightInfantryScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\ForestTerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\GrassTerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\HillsTerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\ITerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\IUseTerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\TerrainAspectScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\UrbanHDTerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\UrbanLDTerrain.boo" />
+     <Compile Include="Assets\ObjectDataDimension\Terrain\WaterTerrain.boo" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+ <Reference Include="Assembly-Boo-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-Boo-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{77618935-7C27-60B6-E737-4413F8B200F0}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

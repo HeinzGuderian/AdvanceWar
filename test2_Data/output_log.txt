@@ -1,0 +1,2323 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1124]
+    Renderer: ATI Radeon HD 4870 X2
+    Vendor:   ATI
+    VRAM:     2033 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+desktop: 1680x1050 59Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.3f3
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Project\AdvanceWars\test2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Project\AdvanceWars\test2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\Assembly-Boo-firstpass.dll (this message is harmless)
+Loading E:\Project\AdvanceWars\test2_Data\Managed\Assembly-Boo-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\Assembly-Boo.dll (this message is harmless)
+Loading E:\Project\AdvanceWars\test2_Data\Managed\Assembly-Boo.dll into Unity Child Domain
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading E:\Project\AdvanceWars\test2_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading E:\Project\AdvanceWars\test2_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.509 seconds
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: E:\Project\AdvanceWars\test2_Data\Managed\System.Xml.dll (this message is harmless)
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+7/2/2012 2:59:04 PM
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:223)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+192
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:224)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+7/2/2012 2:59:04 PM
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:226)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+571
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:227)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+7/2/2012 2:59:10 PM
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:223)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+543
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:224)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+7/2/2012 2:59:10 PM
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:226)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+562
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+MoveTestTroop:HighlightMovableTerrain() (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo:227)
+CompilerGenerated.__CombatTroop_Actions$callable7$74_220__:Call(Object[]) (at E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo:74)
+GuiScript:HandleMouseInput(Hash) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:264)
+GuiScript:UICodeForFunctions(Hash&, List&) (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:314)
+CompilerGenerated.$adaptor$__GuiScript_SetSelected$callable17$138_127__$MenuItemCallable$0:Invoke(Object&, List&)
+BasicMenu:RunMenu() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo:121)
+GuiScript:OnGUI() (at E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo:347)
+ 
+(Filename: E Line: 0)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Profiler is only supported in Unity Pro.
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Profiler/Profiler.cpp Line: 218)
+
+Waiting for finish
+Waiting for finish
+Waiting for finish
+Waiting for finish

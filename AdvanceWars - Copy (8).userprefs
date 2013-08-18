@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Move\MoveAspectClass.boo">
+    <Files>
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="36" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Supply\SupplyTroopScript.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Sight\SightTroop.boo" Line="138" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveAspectClass.boo" Line="24" Column="11" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\ImperialRace\Units\AntiairTroop.boo" Line="20" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="32" Column="7" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\FactoryMove.boo" Line="27" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="344" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="42" Column="20" />
+      <File FileName="Assets\GameplayAspectsDimension\Supply\SupplyUnitScript.boo" Line="18" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Public\Documents\Unity Projects\AdvanceWars - Copy (8)\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="36" />
+      <Breakpoint file="C:\Users\Public\Documents\Unity Projects\AdvanceWars - Copy (8)\Assets\GameplayAspectsDimension\Move\FactoryMove.boo" line="30" />
+      <Breakpoint file="C:\Users\Public\Documents\Unity Projects\AdvanceWars - Copy (8)\Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" line="39" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,40 @@
+HUD
+	turn indicator
+	player indicator
+Battle screen
+
+UnitInfoScreen
+
+Labels to print:
+	UnitName x33 y54 Enhetens namn ("Mech Inf" eller liknande)
+
+	HP x119 y84
+	AP x119 y102
+	Init x119 y122
+	Fuel x119 y142
+	Ammo x119 y162
+
+	Weapon systems (max 4)
+	System name x11 y250
+		HardDamage x190 y250
+		SoftDamage x332 y250
+		Range	x462 y250
+
+
+	System name x11 y290
+		HardDamage x190 y290
+		SoftDamage x332 y290
+		Range	x462 y20
+
+	System name x11 y330
+		HardDamage x190 y330
+		SoftDamage x332 y330
+		Range	x462 y330
+
+	System name x11 y370
+		HardDamage x190 y370
+		SoftDamage x332 y370
+		Range	x462 y370
+	 
+	Flavour Text
+	x548 y208

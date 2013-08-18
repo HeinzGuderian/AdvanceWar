@@ -1,0 +1,18 @@
+Find random opponent
+
+1. Spelare1 klicklar på knappen
+2. Klient1 skickar info till Spelserver: "spelare1 vill spela random"
+3. Spelserver kollar ifall det finns tidigare förfrågan från andra spelare om att spela random
+4a. Om tidigare förfrågan finns, skapas det ett game mellan spelare1 och den spelaren som haft förfrågan inlagd tidigare (spelare2). Vem som blir röd/blå slumpas.
+5a. Notifikationer skickas till Klient1 och Klient2 (spelare1 och spelare2) om att deras game har skapats och de spelar. I denna info finns:
+	Motspelarens namn
+	Vem som är röd/blå
+	Att blå börjar (som vanligt)
+6a.Förfrågan från spelare1 och spelare2 raderas från Spelserver när deras spel har skapats. 
+
+4b. Om tidigare förfrågan INTE finns, så läggs Spelare1 förfrågan in i en lista över spelare som vill spela.
+5b. När fler förfrågan kommer in, matchas Spelare1 mot första bästa motståndare, se punkt 4a.
+
+
+Ifall listan blir lång, prioriteras de spelare som väntat längst på sin tur och matchas mot andra.
+

@@ -1,0 +1,16 @@
+﻿event_victory/defeat/draw
+
+rader att skriva text på
+kolumn1
+rad1 x15 y162
+rad2 x15 y182
+rad3 x15 y202
+
+kolumn2
+rad1 x270 y162
+rad2 x270 y182
+rad3 x270 y202
+
+knapp "close"
+övre vänster hörn av knappen x435 y215
+nedre höger hörn av knappen x512 y256

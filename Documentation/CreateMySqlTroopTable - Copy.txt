@@ -1,0 +1,166 @@
+drop database game;
+create database game;
+use game;
+
+CREATE TABLE accounts(
+	AccountName VARCHAR(50) UNIQUE NOT NULL,
+	Password BLOB NOT NULL,
+	PRIMARY KEY(AccountName)
+) Engine=InnoDB;
+
+CREATE TABLE maps(
+	maps_id INT NOT NULL UNIQUE,
+	MapName VARCHAR(30) NOT NULL,
+	PRIMARY KEY (maps_id),
+	INDEX(maps_id)
+) ENGINE=InnoDB;
+
+CREATE TABLE game_searching_player(
+	AccountName VARCHAR(50) NOT NULL,
+	MapID INT NOT NULL,
+	PRIMARY KEY (AccountName, MapID),
+	FOREIGN KEY (AccountName) REFERENCES accounts(AccountName)
+                      ON DELETE CASCADE ,
+	FOREIGN KEY (MapID) REFERENCES maps(maps_id)
+                      ON DELETE CASCADE ,
+	INDEX(AccountName)
+) ENGINE=InnoDB;
+
+CREATE TABLE games(
+	games_id INT NOT NULL AUTO_INCREMENT UNIQUE,
+	Player1 VARCHAR(50) NOT NULL,
+	Player2 VARCHAR(50) NOT NULL,
+	WhosTurn INT NOT NULL,
+	TurnHasEnded BOOL NOT NULL,
+	Player1HaveWon BOOL NOT NULL,
+	Player2HaveWon BOOL NOT NULL,
+	Player1HaveConceded BOOL NOT NULL,
+	Player2HaveConceded BOOL NOT NULL,
+	TurnNumber INT NOT NULL,
+	MapID INT NOT NULL,
+	Type VARCHAR(30) NOT NULL,
+	PRIMARY KEY (games_id),
+	FOREIGN KEY (Player1) REFERENCES accounts(AccountName)
+                      ON DELETE CASCADE ,
+	FOREIGN KEY (Player2) REFERENCES accounts(AccountName)
+                      ON DELETE CASCADE ,
+	FOREIGN KEY (MapID) REFERENCES maps(maps_id)
+                      ON DELETE CASCADE ,
+	INDEX(games_id,Player1, Player2  )
+) ENGINE=InnoDB;	
+
+
+
+CREATE TABLE player(
+	GameID INT NOT NULL,
+	Player VARCHAR(30) NOT NULL, 
+	VictoryResources INT NOT NULL,
+	UniversalResources INT NOT NULL,
+	Type VARCHAR(30) NOT NULL,
+	PRIMARY KEY (GameID, Player),
+	FOREIGN KEY (GameID) REFERENCES games(games_id)
+                      ON DELETE CASCADE ,
+	INDEX(GameID)
+	
+) ENGINE=InnoDB;
+
+CREATE TABLE troop_class (
+	troop_class_id INT NOT NULL AUTO_INCREMENT UNIQUE,
+	GameID INT NOT NULL,
+	Health INT NOT NULL,
+	CombatInitiative INT NOT NULL,
+	Spotted BOOL NOT NULL,
+	Entrenched INT NOT NULL, 
+	Initiative INT NOT NULL,
+	Ammo INT NOT NULL,
+	Petrol INT NOT NULL,
+	ActionPoints INT NOT NULL,
+	IsMoving BOOL NOT NULL,
+	PositionX INT NOT NULL,
+	PositionY INT NOT NULL,
+	PositionZ INT NOT NULL,
+	Team VARCHAR(30) NOT NULL,
+	Name VARCHAR(30) NOT NULL,
+	Type VARCHAR(30) NOT NULL,
+	PRIMARY KEY (troop_class_id),
+	FOREIGN KEY (GameID) REFERENCES games(games_id)
+                      ON DELETE CASCADE ,
+	INDEX(GameID)
+) ENGINE=InnoDB;
+
+CREATE TABLE supply_unit(
+	supply_unit_id INT NOT NULL UNIQUE,
+	
+	SupplyPetrol INT NOT NULL,
+	SupplyAmmo INT NOT NULL,
+	VictoryResources INT NOT NULL,
+	LoadWeight INT NOT NULL,
+	MaxWeight INT NOT NULL,
+	PRIMARY KEY (supply_unit_id),
+	FOREIGN KEY (supply_unit_id) REFERENCES troop_class(troop_class_id)
+                      ON DELETE CASCADE
+
+) ENGINE=InnoDB;
+
+
+CREATE TABLE central_warehouse (
+	central_warehouse_id INT NOT NULL AUTO_INCREMENT UNIQUE,
+	GameID INT NOT NULL,
+	SupplyPetrol INT NOT NULL,
+	SupplyAmmo INT NOT NULL,
+	VictoryResources INT NOT NULL,
+	LoadWeight INT NOT NULL,
+	MaxWeight INT NOT NULL,
+	PositionX INT NOT NULL,
+	PositionY INT NOT NULL,
+	PositionZ INT NOT NULL,
+	Team VARCHAR(30) NOT NULL,
+	Name VARCHAR(30) NOT NULL,
+	Type VARCHAR(30) NOT NULL,
+	PRIMARY KEY (central_warehouse_id),
+	FOREIGN KEY (GameID) REFERENCES games(games_id)
+                      ON DELETE CASCADE ,
+	INDEX(GameID)
+
+) ENGINE=InnoDB;
+
+CREATE TABLE factory (
+	factory_id INT NOT NULL AUTO_INCREMENT UNIQUE,
+	GameID INT NOT NULL,
+	PositionX INT NOT NULL,
+	PositionY INT NOT NULL,
+	PositionZ INT NOT NULL,
+	Team VARCHAR(30) NOT NULL,
+	Name VARCHAR(30) NOT NULL,
+	Type VARCHAR(30) NOT NULL,
+	PRIMARY KEY (factory_id),
+	FOREIGN KEY (GameID) REFERENCES games(games_id)
+                      ON DELETE CASCADE ,
+	INDEX(GameID)
+
+) ENGINE=InnoDB;
+
+CREATE TABLE oilfield (
+	oilfield_id INT NOT NULL AUTO_INCREMENT UNIQUE,
+	GameID INT NOT NULL,
+	ProducedVRPerTurn INT NOT NULL,
+	CurrentVRHold INT NOT NULL,
+	MaxVRHold INT NOT NULL,
+	PositionX INT NOT NULL,
+	PositionY INT NOT NULL,
+	PositionZ INT NOT NULL,
+	Team VARCHAR(30) NOT NULL,
+	Name VARCHAR(30) NOT NULL,
+	Type VARCHAR(30) NOT NULL,
+	PRIMARY KEY (oilfield_id),
+	FOREIGN KEY (GameID) REFERENCES games(games_id)
+                      ON DELETE CASCADE ,
+	INDEX(GameID)
+
+) ENGINE=InnoDB;
+
+create user 'game_client'@'%' identified by 'readOnlyPass';
+GRANT SELECT ON start_game.* to 'game_client'@'%';
+flush privileges;
+
+insert into maps values(0,"test map");
