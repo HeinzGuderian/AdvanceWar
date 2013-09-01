@@ -31,6 +31,7 @@ CREATE TABLE troop_class (
 	Spotted BOOL NOT NULL,
 	Entrenched INT NOT NULL, 
 	Initiative INT NOT NULL,
+	OverWhatchNumber INT NOT NULL,
 	Ammo INT NOT NULL,
 	Petrol INT NOT NULL,
 	ActionPoints INT NOT NULL,

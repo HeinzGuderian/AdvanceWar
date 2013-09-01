@@ -1,3 +1,4 @@
 sudo /etc/init.d/apache2 reload
 cat /var/log/apache2/error.log
 databas pass cossacks2
+sudo mysql -p -> cossacks2

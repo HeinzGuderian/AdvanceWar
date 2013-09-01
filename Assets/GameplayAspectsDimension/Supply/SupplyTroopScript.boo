@@ -1,6 +1,6 @@
 import UnityEngine
 
-class SupplyTroopScript (MonoBehaviour, IMove, IGUI): 
+class SupplyTroopScript (MonoBehaviour, IGUI): 
 	_library as LibraryScript
 	_testInfantryTroop as TroopClass
 	
@@ -19,6 +19,6 @@ class SupplyTroopScript (MonoBehaviour, IMove, IGUI):
 		//_testInfantryTroop.Petrol = 100
 	 
 	// targetTerrain is assumed validated	
-	def AfterMove(targetTerrain as GameObject):
+	def AllowedToMove(targetTerrain as GameObject):
 		cost = SupplyAspectClass.CalculateSupplyCost(_testInfantryTroop,targetTerrain)
 		_testInfantryTroop.Petrol -= cost

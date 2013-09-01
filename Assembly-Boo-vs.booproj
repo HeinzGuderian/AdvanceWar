@@ -85,8 +85,8 @@
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\BuildingSerialise.boo" />
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\CentralWarehouseSerialise.boo" />
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\FactorySerialise.boo" />
-     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\LoadSaveFiles.boo" />
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\OilfieldScriptSerialise.boo" />
+     <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" />
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadUnitSerialisable.boo" />
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\TroopScriptSerialise.boo" />
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\TroopScriptSaveLoadMultiplayer.boo" />
@@ -95,6 +95,7 @@
      <Compile Include="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" />
      <Compile Include="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" />
      <Compile Include="Assets\GameplayAspectsDimension\Combat\ICombat.boo" />
+     <Compile Include="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo" />
      <Compile Include="Assets\GameplayAspectsDimension\Economy\AntiAirTroopEconomy.boo" />
      <Compile Include="Assets\GameplayAspectsDimension\Economy\ArmouredTroopEconomy.boo" />
      <Compile Include="Assets\GameplayAspectsDimension\Economy\ArtyTroopEconomy.boo" />

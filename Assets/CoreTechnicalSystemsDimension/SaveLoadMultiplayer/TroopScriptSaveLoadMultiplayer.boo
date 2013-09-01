@@ -12,6 +12,7 @@ partial class TroopClass (INormalForm):
 			properties["Spotted"] = null
 			properties["Entrenched"] = null
 			properties["Initiative"] = null
+			properties["OverWhatchNumber"] = null
 			properties["Ammo"] = null
 			properties["Petrol"] = null
 			properties["ActionPoints"] = null
@@ -26,6 +27,7 @@ partial class TroopClass (INormalForm):
 			properties["Spotted"] = Spotted
 			properties["Entrenched"] = Entrenched
 			properties["Initiative"] = Initiative
+			properties["OverWhatchNumber"] = OverWhatchNumber
 			properties["Ammo"] = Ammo
 			properties["Petrol"] = Petrol
 			properties["ActionPoints"] = ActionPoints

@@ -54,6 +54,12 @@ class LibraryScript(MonoBehaviour):
 			if component isa T:
 				return component
 		return null
+		
+	static def ReturnBoolVarIfNotAlreadySet(variable as bool, oldValue as bool, targetSet as bool) as bool:
+		if oldValue == targetSet:
+			return targetSet
+		else:
+			return variable
 
 	def FindTerrain(newPosition as Vector3) as GameObject:
 		

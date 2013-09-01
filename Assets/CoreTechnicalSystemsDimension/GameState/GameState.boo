@@ -210,7 +210,7 @@ partial public class GameState(MonoBehaviour):
 		
 		NextPlayersTurn()
 		if LocalGame == true:
-			SaveLoadClass = SaveLoadGameSerialisable("test")
+			SaveLoadClass = SaveLoadGameSerialisable("test"+_level)
 			print("save game true")
 		else:
 			SaveLoadClass = GetPostWEB()

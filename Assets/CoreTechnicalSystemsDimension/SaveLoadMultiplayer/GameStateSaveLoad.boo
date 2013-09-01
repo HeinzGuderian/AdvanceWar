@@ -18,6 +18,7 @@ partial public class GameState (INormalForm):
 	public _player2HaveConcede as bool = false
 	
 	private _baseLevel as int = 5
+	private _level as int = 0
 	
 	public Player1HaveWon as bool:
 		get:
@@ -163,11 +164,12 @@ partial public class GameState (INormalForm):
 	def OnLevelWasLoaded(level as int):
 		
 		return if level < _baseLevel
+		_level = level
 		print("level "+level)
 		print("_baseLevel "+_baseLevel)
 		print(CurrentPlayer)
 		if LocalGame == true:
-			SaveLoadClass = SaveLoadGameSerialisable("test")
+			SaveLoadClass = SaveLoadGameSerialisable("test"+_level)
 			CurrentPlayer = WhosTurn
 			print("load game true")
 		else:
@@ -194,7 +196,7 @@ partial public class GameState (INormalForm):
 					Destroy(currentGameObject.gameObject)
 				SaveLoadClass.LoadGame()
 			else:
-				SaveLoadClass.DeleteGame("test")
+				SaveLoadClass.DeleteGame("test"+_level)
 		else:
 			SaveLoadClass.LoadGame()
 			

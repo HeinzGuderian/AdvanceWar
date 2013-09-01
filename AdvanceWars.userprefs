@@ -1,16 +1,29 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo">
     <Files>
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="212" Column="24" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="465" Column="18" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="109" Column="290" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="208" Column="48" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="178" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\GameStatePostWEB.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\MainMenu.boo" Line="155" Column="5" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\MainMenu.boo" Line="32" Column="3" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\NewGameMenu.boo" Line="110" Column="101" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\ISaveLoad.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" Line="64" Column="29" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" Line="54" Column="9" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" Line="29" Column="11" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\PlayerSaveLoad.boo" Line="29" Column="7" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\TroopScriptSaveLoadMultiplayer.boo" Line="30" Column="53" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="3" Column="90" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\ContactsScript.boo" Line="31" Column="3" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="179" Column="32" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\BasicMenu.boo" Line="48" Column="25" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" Line="52" Column="22" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="76" Column="3" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" Line="187" Column="20" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" Line="89" Column="3" />
+      <File FileName="Assets\GameplayAspectsDimension\Sight\SightTroop.boo" Line="164" Column="19" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\IMove.boo" Line="2" Column="19" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="59" Column="14" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -27,9 +40,9 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="402" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="23" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" line="51" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="187" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="434" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

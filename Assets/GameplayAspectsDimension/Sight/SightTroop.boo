@@ -61,7 +61,7 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 	def Update ():
 		pass
 		
-	def AfterMove(_ as GameObject):
+	def AllowedToMove(_ as GameObject):
 		CheckSurroundingsOptimised()
 		
 	def calculateCamoValue(objectToCheck as GameObject) as int:
@@ -121,6 +121,9 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		else:
 			return false
 			
+	def AllowedToMove(targetTerrain as GameObject, troopClass as TroopClass) as bool:	
+		return not CheckSurroundings()	
+			
 	/* Code to check that we are even effected by the movement, if it is in our sight range
 	If we are not affected then the funciton returns.
 	Otherwise it calls CheckSurroundings
@@ -148,8 +151,11 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 					return
 		CheckSurroundings()
 		
+	
+		
 	// Function that goes through the enemy units in the terrains in sight range and sets their rendererd and collider according to if they get spotted 
-	def CheckSurroundings():
+	// Returns true if we have seen an enemy else false
+	def CheckSurroundings() as bool:
 		range as int = _testInfantryTroop.Sight
 		ourTeam = _teamScript.Player
 		startPoint = _testInfantryTroop.OccupiedTerrain
@@ -162,7 +168,7 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		searchedTerrain = []
 		_testInfantryTroop.OccupiedTerrain.RecursiveTerrainObjectsSearchGrids(startPoint, ourTeam, 0, range, enemyTroops, searchFunction, searchedTerrain )
 	
-//		spootedByAnyone = false
+		spootedByAnyone = false
 		for enemy as GameObject in enemyTroops:
 			enemyTroopClass = enemy.GetComponent[of TroopClass]() as TroopClass
 			assert enemyTroopClass != null
@@ -173,6 +179,7 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 					// then set him to visual
 					GameObject.RecursiveRendererEnable(enemy)
 					enemyTroopClass.Spotted = true
+					spootedByAnyone = LibraryScript.ReturnBoolVarIfNotAlreadySet(enemyTroopClass.Spotted, spootedByAnyone, true)
 				else:	
 					// Otherwise check if not on the current players team
 					if _teamScript.IsOurTurn():
@@ -198,9 +205,8 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 				// Check if we are not on the current players team
 				if not _teamScript.IsOurTurn():
 					// Then disable render
-					GameObject.RecursiveRendererDisable(gameObject)
-				
-				
+					GameObject.RecursiveRendererDisable(gameObject)	
+		return spootedByAnyone	
 				/*
 				
 				

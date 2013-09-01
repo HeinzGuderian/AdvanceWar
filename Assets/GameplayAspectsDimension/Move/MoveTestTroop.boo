@@ -101,7 +101,7 @@ class MoveTestTroop (MonoBehaviour, IGUI, IGameState):
 	/*
 	Orchester function for move.
 	checks that the move target appeasrs valid, construts a path and calls the moveOneTerrain on each terrain.
-	Also after each move calls AfterMove on affected objects. 
+	Also after each move calls AllowedToMove on affected objects. 
 	*/	
 	def Move(targetTerrain as GameObject) as System.Collections.IEnumerator:
 		// if user clicked on a troop, display text, reset flags, break.
@@ -177,16 +177,21 @@ class MoveTestTroop (MonoBehaviour, IGUI, IGameState):
 				if( len(IMoveComponents) == 0):
 					continue
 				TakeOverBuildings(clickedTerrain)
+				
+				canContinueMove = true
 				// Call the visibility concenr first, it updates the sight values which is used by other concenrs
 				for component in IMoveComponents:
 					componentIMove as IMove = component
 					if componentIMove isa SightTroop:
-						componentIMove.AfterMove(terrainGrid)
+						canContinueMove = LibraryScript.ReturnBoolVarIfNotAlreadySet(componentIMove.AllowedToMove(terrainGrid, _testInfantryTroop), canContinueMove, false)
 						IMoveComponents.Remove(component)
 					
 				// Call all other concerns
 				for moveDependentConcernScript as IMove in IMoveComponents:
-					moveDependentConcernScript.AfterMove(terrainGrid)
+					canContinueMove = LibraryScript.ReturnBoolVarIfNotAlreadySet(moveDependentConcernScript.AllowedToMove(terrainGrid, _testInfantryTroop), canContinueMove, false)
+
+				if canContinueMove == false:
+					break
 			_testInfantryTroop.IsMoving = false
 			
 			// Check movement point

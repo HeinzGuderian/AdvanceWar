@@ -37,6 +37,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 	final CLICKED_ON_SELF as string = "A unit won't attack itself."
 	final TO_LOW_AP as string = "The unit has to few actionpoints."
 	final CLICKED_NONE_UNIT as string = "Clicked object was not a unit." 
+	final UNIT_TO_FAR_AWAY as string = "The target is to far away." 
 	
 	enum CombatResult:
 			Victory = 0
@@ -105,6 +106,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 		
 	def Actions():
 		actions = [{"name"  : "Combat", "image":ButtonImage, "object": self as MonoBehaviour, "function"  : self.InitiateCombat as callable , "requireMouseClick" : 0, "requireSelected" : true, "RunWaitFunction" : true ,"WaitFunction": self.HighlightCombatUnits,"ShouldRevertWaitFunction":true, "RevertWaitFunction": self.DeHighlightCombatUnits}]
+		//{"name"  : "Overwhatch", "image":ButtonImage, "object": self as MonoBehaviour, "function"  : self.OverWhatch as callable , "requireMouseClick" : 0, "requireSelected" : false, "RunWaitFunction" : false ,"WaitFunction": null,"ShouldRevertWaitFunction":false, "RevertWaitFunction": null}]
 		return actions
 	
 	def Update ():
@@ -128,7 +130,38 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 			for index in range(len(_leftRowBoxRects)):
 				GUI.Label(_leftRowBoxRects[index],_leftRowBoxTexts[index])
 			GUI.EndGroup()
-			
+		
+	/**
+	Uses the remaining ap for 
+	*/
+	def OverWhatch():
+		remainingAP = _testInfantryTroop.ActionPoints
+		ifdef UNITY_EDITOR:
+			assert remainingAP > -1
+		_testInfantryTroop.ActionPoints = 0
+		_testInfantryTroop.OverWhatchNumber = remainingAP
+		return
+		
+	def AllowedToMove(targetTerrain as GameObject, movingTroopClass as TroopClass):
+		// Do we have OverwhatchAP left?
+		if _testInfantryTroop.OverWhatchNumber >= 0:
+			// If not exit with positive value.
+			return true  
+		// Check if enemy.
+		if TeamScript.IsSameTeam( TeamScript.FindTeamScript(movingTroopClass.gameObject), TeamScript.FindTeamScript(gameObject)):
+			// If enemy exit with positive value
+			return true  
+		// Is in range?
+		if LibraryScript.CalculateGridRange(targetTerrain.gameObject, gameObject):
+			// If not exit with positive value 
+		  	return true
+		// Attack with intiative bonus if we are not spotted
+		if _testInfantryTroop.Spotted == true:
+			_testInfantryTroop.CombatInitiative += 1
+		InitiateCombat(movingTroopClass.gameObject)
+		return false
+		
+					
 	def attackCentralWarehouse(targetGO as CentralWarehouseScript) as bool :
 		distanceBetweenCombatants = _library.CalculateGridRange(gameObject, targetGO.gameObject)
 		softDamageResult = 0
@@ -185,8 +218,13 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 		if (TeamScript.IsSameTeam(ourTeam,enemyTeam) ):
 			_currentPlayerGUI.PrintToScreen(SAME_TEAM)
 			return
-
-		
+		if _testInfantryTroop.ActionPoints < _attackCost:
+			return
+		weaponRanges = [weaponStruct.Range for weaponStruct as TroopClass.WeaponSystem in _testInfantryTroop.WeaponList].Sort()
+		maxWeaponRange as int = weaponRanges.ToArray()[-1]
+		if maxWeaponRange < LibraryScript.CalculateGridRange(targetGO, gameObject):
+			_currentPlayerGUI.PrintToScreen(UNIT_TO_FAR_AWAY)
+			return
 
 		MoveTestTroop.ChangeFacingTowards(gameObject, targetGO)
 		MoveTestTroop.ChangeFacingTowards(targetGO, gameObject)

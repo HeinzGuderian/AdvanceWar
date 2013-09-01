@@ -1,2 +1,2 @@
 interface IMove(): 
-	def AfterMove(targetTerrain as GameObject) as bool
+	def AllowedToMove(targetTerrain as GameObject, troopClass as TroopClass) as bool
