@@ -231,7 +231,10 @@ class GuiScript(MonoBehaviour, IGameState):
 				if(waitingFunction.ContainsKey("ShouldRevertWaitFunction") and waitingFunction["ShouldRevertWaitFunction"] == true ):	
 					(waitingFunction["RevertWaitFunction"] as callable)(selected)
 					//StartCoroutine((waitingFunction["RevertWaitFunction"] as callable)(selected) as System.Collections.IEnumerator)
-				StartCoroutine((waitingFunction["function"] as callable)(selected) as System.Collections.IEnumerator)
+				//try:
+					StartCoroutine((waitingFunction["function"] as callable)(selected) as System.Collections.IEnumerator)
+				//except e:
+					//pass
 				//(waitingFunction["function"] as callable)(selected)
 				//(waitingFunction["name"] as callable)(selected)
 				// Reseting variables

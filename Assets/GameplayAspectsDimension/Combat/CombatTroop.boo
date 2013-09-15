@@ -1,7 +1,7 @@
 import UnityEngine
 import testExtension
 
-class CombatTroop (MonoBehaviour, IGUI, IGameState): 
+class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove): 
 	//_hasPlayedTurn as bool
 	_library as LibraryScript
 	_testInfantryData as DataScript
@@ -26,6 +26,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 	guiState as combatGuiState = combatGuiState.noCombat
 	
 	final _attackCost as int = 40
+	final _maxWeaponRange as double = 10.0
 	
 	//GUI.Button(Rect(0, 0, 100, 20), GUIContent('Click me', icon))
 	
@@ -38,6 +39,23 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 	final TO_LOW_AP as string = "The unit has to few actionpoints."
 	final CLICKED_NONE_UNIT as string = "Clicked object was not a unit." 
 	final UNIT_TO_FAR_AWAY as string = "The target is to far away." 
+	
+	enum CombatAllowedErrorCodes:
+		OKAY = 0
+		CLICKED_ON_SELF = 1
+		CLICKED_NONE_UNIT = 2
+		SAME_TEAM = 3
+		TO_LOW_AP = 4
+		UNIT_TO_FAR_AWAY = 5
+		
+	public final CombatErrorTable = {
+		CombatAllowedErrorCodes.OKAY: "Attacking!",
+		CombatAllowedErrorCodes.CLICKED_ON_SELF : CLICKED_ON_SELF,
+		CombatAllowedErrorCodes.CLICKED_NONE_UNIT : CLICKED_NONE_UNIT,
+		CombatAllowedErrorCodes.SAME_TEAM : SAME_TEAM,
+		CombatAllowedErrorCodes.TO_LOW_AP : TO_LOW_AP,
+		CombatAllowedErrorCodes.UNIT_TO_FAR_AWAY : UNIT_TO_FAR_AWAY
+	}
 	
 	enum CombatResult:
 			Victory = 0
@@ -105,8 +123,8 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 		return ""
 		
 	def Actions():
-		actions = [{"name"  : "Combat", "image":ButtonImage, "object": self as MonoBehaviour, "function"  : self.InitiateCombat as callable , "requireMouseClick" : 0, "requireSelected" : true, "RunWaitFunction" : true ,"WaitFunction": self.HighlightCombatUnits,"ShouldRevertWaitFunction":true, "RevertWaitFunction": self.DeHighlightCombatUnits}]
-		//{"name"  : "Overwhatch", "image":ButtonImage, "object": self as MonoBehaviour, "function"  : self.OverWhatch as callable , "requireMouseClick" : 0, "requireSelected" : false, "RunWaitFunction" : false ,"WaitFunction": null,"ShouldRevertWaitFunction":false, "RevertWaitFunction": null}]
+		actions = [{"name"  : "Combat", "image":ButtonImage, "object": self as MonoBehaviour, "function"  : self.InitiateCombat as callable , "requireMouseClick" : 0, "requireSelected" : true, "RunWaitFunction" : true ,"WaitFunction": self.HighlightCombatUnits,"ShouldRevertWaitFunction":true, "RevertWaitFunction": self.DeHighlightCombatUnits},
+		{"name"  : "Overwhatch", "image":ButtonImage, "object": self as MonoBehaviour, "function"  : self.OverWhatch as callable , "requireMouseClick" : 0, "requireSelected" : false, "RunWaitFunction" : false ,"WaitFunction": null,"ShouldRevertWaitFunction":false, "RevertWaitFunction": null}]
 		return actions
 	
 	def Update ():
@@ -131,6 +149,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 				GUI.Label(_leftRowBoxRects[index],_leftRowBoxTexts[index])
 			GUI.EndGroup()
 		
+			
 	/**
 	Uses the remaining ap for 
 	*/
@@ -142,24 +161,34 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 		_testInfantryTroop.OverWhatchNumber = remainingAP
 		return
 		
-	def AllowedToMove(targetTerrain as GameObject, movingTroopClass as TroopClass):
-		// Do we have OverwhatchAP left?
-		if _testInfantryTroop.OverWhatchNumber >= 0:
-			// If not exit with positive value.
-			return true  
-		// Check if enemy.
-		if TeamScript.IsSameTeam( TeamScript.FindTeamScript(movingTroopClass.gameObject), TeamScript.FindTeamScript(gameObject)):
-			// If enemy exit with positive value
-			return true  
-		// Is in range?
-		if LibraryScript.CalculateGridRange(targetTerrain.gameObject, gameObject):
-			// If not exit with positive value 
-		  	return true
-		// Attack with intiative bonus if we are not spotted
-		if _testInfantryTroop.Spotted == true:
-			_testInfantryTroop.CombatInitiative += 1
-		InitiateCombat(movingTroopClass.gameObject)
-		return false
+	def AllowedToMove(targetTerrain as GameObject, movingTroopClass as TroopClass) as bool:
+		troopGameObjectList = _library.FindObjectsWithTagSearch(targetTerrain, "Troop", _maxWeaponRange)
+		enemyHasEngaged = false
+		b = [TroopClass.FindTroopScript(troop) for troop as GameObject in troopGameObjectList if troop.GetInstanceID() != _testInfantryTroop.gameObject.GetInstanceID()]
+		if b.Count > 0:
+			c = b[0]
+		for troop as TroopClass in [TroopClass.FindTroopScript(troop) for troop as GameObject in troopGameObjectList if troop.GetInstanceID() != gameObject.GetInstanceID()]:
+			a = troop
+			// Do we have OverwhatchAP left?
+			if troop.OverWhatchNumber == 0:
+				// If not exit with positive value.
+				continue  
+			// Check if enemy.
+			if TeamScript.IsSameTeam( TeamScript.FindTeamScript(movingTroopClass.gameObject), TeamScript.FindTeamScript(troop.gameObject)):
+				// If enemy exit with positive value
+				continue  
+			// Is in range?
+			if LibraryScript.CalculateGridRange(targetTerrain.gameObject, gameObject):
+				// If not exit with positive value 
+			  	continue
+			// Attack with intiative bonus if we are not spotted
+			if _testInfantryTroop.Spotted == true:
+				_testInfantryTroop.CombatInitiative += 1
+			AllowedToAttackEnum = AllowedToAttack(troop.gameObject)
+			if(AllowedToAttackEnum == CombatAllowedErrorCodes.OKAY):
+				StartCoroutine(InitiateCombat(troop.gameObject))
+				enemyHasEngaged = true
+		return not enemyHasEngaged
 		
 					
 	def attackCentralWarehouse(targetGO as CentralWarehouseScript) as bool :
@@ -186,7 +215,39 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 		targetGO.Health -=totalDamage
 		
 		return targetGO.Health < 1
-			
+	
+	def AllowedToAttack(targetGO as GameObject) as CombatAllowedErrorCodes:
+		// Check variables
+		assert targetGO != null
+		if targetGO.GetInstanceID() == gameObject.GetInstanceID():
+			//_currentPlayerGUI.PrintToScreen(CLICKED_ON_SELF)
+			return CombatAllowedErrorCodes.CLICKED_ON_SELF
+		_targetCentralWarehouse = targetGO.GetComponent[of CentralWarehouseScript]()
+		//if( _targetCentralWarehouse != null ):
+			//isDestroyed as bool = attackCentralWarehouse(_targetCentralWarehouse)
+		//	return
+		//else:	
+		_targetTroop = targetGO.GetComponent[of TroopClass]()
+		if(not _targetTroop isa TroopClass  ):
+			//_currentPlayerGUI.PrintToScreen(CLICKED_NONE_UNIT)
+			return CombatAllowedErrorCodes.CLICKED_NONE_UNIT
+		ourTeam as TeamScript = TeamScript.FindTeamScript(gameObject)
+		assert ourTeam != null
+		enemyTeam as TeamScript = TeamScript.FindTeamScript(targetGO)
+		assert enemyTeam != null
+		if (TeamScript.IsSameTeam(ourTeam,enemyTeam) ):
+			//_currentPlayerGUI.PrintToScreen(SAME_TEAM)
+			return CombatAllowedErrorCodes.SAME_TEAM
+		if _testInfantryTroop.ActionPoints < _attackCost:
+			//_currentPlayerGUI.PrintToScreen(TO_LOW_AP)
+			return CombatAllowedErrorCodes.TO_LOW_AP
+		weaponRanges = [weaponStruct.Range for weaponStruct as TroopClass.WeaponSystem in _testInfantryTroop.WeaponList].Sort()
+		maxWeaponRange as int = weaponRanges.ToArray()[-1]
+		if maxWeaponRange < LibraryScript.CalculateGridRange(targetGO, gameObject):
+			//_currentPlayerGUI.PrintToScreen(UNIT_TO_FAR_AWAY)
+			return	CombatAllowedErrorCodes.UNIT_TO_FAR_AWAY
+		return CombatAllowedErrorCodes.OKAY
+							
 	/* Orchester function to handle combat.
 	Will calculate damage between the combatans and will handle modifiers.
 	Will set new health and possibly remove objects.
@@ -194,59 +255,23 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 	*/
 	def InitiateCombat(targetGO as GameObject) as System.Collections.IEnumerator:
 		// Need to select ourself, seance we cicked on the target and then the target became selected
-		_testInfantryData.SetSelected()
+		AllowedToAttackEnum = AllowedToAttack(targetGO)
+		if(AllowedToAttackEnum != CombatAllowedErrorCodes.OKAY):
+			_currentPlayerGUI.PrintToScreen(CombatErrorTable[AllowedToAttackEnum])
+			yield
+		else: 
+			yield StartCoroutine(Combat(targetGO)	)
 		
-		// Check variables
-		assert targetGO != null
-		if targetGO.GetInstanceID() == gameObject.GetInstanceID():
-			_currentPlayerGUI.PrintToScreen(CLICKED_ON_SELF)
-			return
-			
-		_targetCentralWarehouse = targetGO.GetComponent[of CentralWarehouseScript]()
-		if( _targetCentralWarehouse != null ):
-			//isDestroyed as bool = attackCentralWarehouse(_targetCentralWarehouse)
-			return
-		else:	
-			_targetTroop = targetGO.GetComponent[of TroopClass]()
-			if(not _targetTroop isa TroopClass  ):
-				_currentPlayerGUI.PrintToScreen(CLICKED_NONE_UNIT)
-				return
-		ourTeam as TeamScript = TeamScript.FindTeamScript(gameObject)
-		assert ourTeam != null
-		enemyTeam as TeamScript = TeamScript.FindTeamScript(targetGO)
-		assert enemyTeam != null
-		if (TeamScript.IsSameTeam(ourTeam,enemyTeam) ):
-			_currentPlayerGUI.PrintToScreen(SAME_TEAM)
-			return
-		if _testInfantryTroop.ActionPoints < _attackCost:
-			return
-		weaponRanges = [weaponStruct.Range for weaponStruct as TroopClass.WeaponSystem in _testInfantryTroop.WeaponList].Sort()
-		maxWeaponRange as int = weaponRanges.ToArray()[-1]
-		if maxWeaponRange < LibraryScript.CalculateGridRange(targetGO, gameObject):
-			_currentPlayerGUI.PrintToScreen(UNIT_TO_FAR_AWAY)
-			return
-
+	
+	def Combat(targetGO as GameObject) as System.Collections.IEnumerator:
+		_testInfantryData.SetSelected()
 		MoveTestTroop.ChangeFacingTowards(gameObject, targetGO)
 		MoveTestTroop.ChangeFacingTowards(targetGO, gameObject)
 		SetAnimation(gameObject,"attack")
 		SetAnimation(targetGO,"attack")
 		yield WaitForSeconds(2)
-		
-		guiState = combatGuiState.showingScreen
-		//SetAnimation(gameObject,"attack");
-		/*
-		print(gameObject.GetComponentsInChildren[of Animation]())
-		a = gameObject.GetComponentsInChildren[of Animation]()
-		for currentAnimation as Animation in gameObject.GetComponentsInChildren[of Animation]():
-			c = currentAnimation
-			for animationState as AnimationState in currentAnimation as Animation:
-				b = animationState
-				if animationState.name == "attack" :
-					print("111")
-					currentAnimation.Play ("attack",PlayMode.StopAll);
-					*/
-					
-		/// Calculate damage
+		guiState = combatGuiState.showingScreen	
+		// Calculate damage
 		damagedMadeToTarget = attackDamage(_testInfantryTroop, _targetTroop)
 		//player1DamagedString = "Player 1 inflicted "+damagedMadeToTarget+" damage."
 		damagedMadeToSelf  = attackDamage(_targetTroop, _testInfantryTroop )
@@ -423,9 +448,9 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState):
 		return longestRange
 				
 	def HighlightCombatUnits():
-		if _testInfantryTroop.ActionPoints < _attackCost:
-			_currentPlayerGUI.PrintToScreen(TO_LOW_AP)
-			return
+		//if _testInfantryTroop.ActionPoints < _attackCost:
+		//	_currentPlayerGUI.PrintToScreen(TO_LOW_AP)
+		//	return
 		// Highlight terrain that you can build on.
 		startTerrain as TerrainScript = TerrainScript.FindTerrainScript(_testInfantryTroop.OccupiedTerrainGameObject)
 		ourTeam as TeamScript.PlayerNumberEnum = TeamScript.FindTeamScript(gameObject).Player

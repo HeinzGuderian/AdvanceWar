@@ -69,7 +69,7 @@ class SaveLoadUnitSerialisable (ISerializable, ISaveLoadUnit):
 			try:
 				LoadStruct.metaInfo[hash.Key.ToString()] = info.GetValue(hash.Key.ToString(), (hash.Value as Boo.Lang.Hash)["type"] as System.Type)
 			except e as SerializationException: 
-				pass
+				print(e)
 	
 	
         

@@ -95,6 +95,31 @@ class LibraryScript(MonoBehaviour):
 		else: 
 			return null
 			
+	def FindObjectsWithTag(newPosition as Vector3, tag as string, objectRadius as double):
+		shipColliderList = Physics.OverlapSphere(newPosition, objectRadius)	
+		planetList as List = []
+		planet as UnityEngine.Collider = null
+		for SpaceObject in shipColliderList:
+			if SpaceObject.tag == tag:
+				 planet = SpaceObject
+				 planetList.Add(planet.gameObject)
+		if planetList.Count > 0:
+			return planetList
+		else: 
+			return []
+			
+	def FindObjectsWithTagSearch(firstObject as GameObject, tag as string, objectRadius as double):
+		curryedGetGridRange = { secondObject as GameObject | CalculateGridRange(firstObject , secondObject ) }
+		shipColliderList = GameObject.FindGameObjectsWithTag(tag)
+		planetList as List = []
+		for SpaceObject as GameObject in shipColliderList:
+			if curryedGetGridRange(SpaceObject) < objectRadius:
+				 planetList.Add(SpaceObject)
+		if planetList.Count > 0:
+			return planetList
+		else: 
+			return []
+			
 			/*
 	def FindPlayers():
 		return GameObject.FindGameObjectsWithTag("Player")
