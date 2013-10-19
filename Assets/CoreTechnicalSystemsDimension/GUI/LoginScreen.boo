@@ -17,6 +17,7 @@ partial class LoginScreen (MonoBehaviour):
 	_LoginSaveLoad as SaveLoadGameSerialisable 
 	
 	_autoLogin = false
+	_a = 1
 	
 	Name as string:
 		get:

@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo">
     <Files>
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\ISaveLoad.boo" Line="6" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="190" Column="5" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="215" Column="26" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="217" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\GameStatePostWEB.boo" Line="1" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="237" Column="8" />
@@ -26,7 +26,8 @@
       <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="62" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\SaveLoadMultiplayerAspectClass.boo" Line="91" Column="26" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadUnitSerialisable.boo" Line="101" Column="12" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\TroopScriptSerialise.boo" Line="33" Column="5" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\TroopScriptSerialise.boo" Line="33" Column="9" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo" Line="20" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,30 +35,31 @@
           <Node name="Assembly-Boo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="CoreTechnicalSystemsDimension" expanded="True">
-                <Node name="GameState" expanded="True" />
-                <Node name="GUI" expanded="True" />
-                <Node name="SaveLoadMultiplayer" expanded="True">
-                  <Node name="Serialise" expanded="True" />
-                  <Node name="Web" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="GameplayAspectsDimension" expanded="True">
-                <Node name="Combat" expanded="True">
-                  <Node name="CombatTroop.boo" selected="True" />
-                </Node>
-                <Node name="Economy" expanded="True" />
-                <Node name="Move" expanded="True" />
-                <Node name="Sight" expanded="True" />
-              </Node>
-              <Node name="ObjectDataDimension" expanded="True">
-                <Node name="PlayerOwnedObjects" expanded="True">
-                  <Node name="Units" expanded="True" />
+                <Node name="GUI" expanded="True">
+                  <Node name="LoginScreen.boo" selected="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="CoreTechnicalSystemsDimension" expanded="True">
+                <Node name="SaveLoadMultiplayer" expanded="True">
+                  <Node name="Serialise" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Standard Assets (Mobile)" expanded="True">
+                <Node name="Shaders" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
           <Node name="Assembly-UnityScript" expanded="True">
-            <Node name="Assets" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Standard Assets (Mobile)" expanded="True">
+                <Node name="Scripts" expanded="True" />
+                <Node name="Shaders" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
