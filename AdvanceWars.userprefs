@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs">
     <Files>
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\ISaveLoad.boo" Line="6" Column="1" />
       <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="161" Column="1" />
@@ -27,7 +27,9 @@
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\TroopScriptSerialise.boo" Line="33" Column="9" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo" Line="6" Column="2" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="56" Column="26" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo" Line="5" Column="32" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo" Line="6" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\CameraMove.boo" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="51" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -42,16 +44,35 @@
                 </Node>
               </Node>
               <Node name="GameplayAspectsDimension" expanded="True">
-                <Node name="Combat" expanded="True">
-                  <Node name="TroopClassCombat.boo" selected="True" />
-                </Node>
+                <Node name="Combat" expanded="True" />
                 <Node name="Economy" expanded="True" />
                 <Node name="Move" expanded="True" />
                 <Node name="Sight" expanded="True" />
               </Node>
               <Node name="ObjectDataDimension" expanded="True">
                 <Node name="PlayerOwnedObjects" expanded="True">
+                  <Node name="Player" expanded="True" />
                   <Node name="Units" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-Boo-firstpass" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Camera Scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-firstpass" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Camera Scripts" expanded="True">
+                    <Node name="OnTouchDown.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
