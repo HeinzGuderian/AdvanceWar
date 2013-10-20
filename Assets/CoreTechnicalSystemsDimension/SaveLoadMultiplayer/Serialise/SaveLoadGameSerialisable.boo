@@ -170,4 +170,7 @@ class SaveLoadGameSerialisable (ISaveLoadGame):
 		GameState.FindGameState().GetComponent[of GameState]().LevelIsLoaded = true
 		
 	def DeleteGame(name as String):
-		Directory.Delete(_onlyGameFolder()+"/"+name, true)
+		try:
+			Directory.Delete(_onlyGameFolder()+"/"+name, true)
+		except e:
+			print(e)

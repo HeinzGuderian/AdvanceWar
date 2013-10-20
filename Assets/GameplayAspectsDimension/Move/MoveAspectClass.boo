@@ -75,9 +75,12 @@ static class MoveAspectClass(MonoBehaviour):
 		elif(  start.transform.position.x > targetTerrain.transform.position.x ):
 			xDistance = (start.transform.position.x - targetTerrain.transform.position.x) //-(buffer+(buffer/2)-marginal
 			return xDistance
-			
-	// A* algoritm
+	
 	def FindShortestPath(start as GameObject, goal as GameObject) as PathResult:
+		return FindShortestPath(start, goal, true)
+							
+	// A* algoritm
+	def FindShortestPath(start as GameObject, goal as GameObject, needGoal as bool) as PathResult:
 		assert start != null
 		assert goal != null
 		//function A*(start,goal)
@@ -141,7 +144,7 @@ static class MoveAspectClass(MonoBehaviour):
 			*/
 			current as GameObject = lowestKey
 			
-			if current is goal:
+			if current is goal and needGoal == true:
 				/*
 				getIndexOfValue = def(value1 as GameObject, list as List) as int:
 							index as int = 0
@@ -208,7 +211,7 @@ static class MoveAspectClass(MonoBehaviour):
                     //f_score[neighbor] := g_score[neighbor] + h_score[neighbor]
 					//(g_score[getIndexOfKey(neighborValue, h_score)] as List)[1] = tentative_g_score
 					//(f_score[getIndexOfKey(neighborValue, h_score)] as List)[1] = getValueFromKeyInList(neighborValue, g_score) cast int + getValueFromKeyInList(neighborValue, h_score) cast int
-		return PathResult(pathList: [], totalCost: 0)
+		return PathResult(pathList: closedset, totalCost: 0)
   
 /*
 buffer = GameState.TERRAIN_SIDE_DISTANCE * range

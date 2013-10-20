@@ -7,7 +7,7 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 	public materials as (Material)
 	_neighbours as Boo.Lang.Hash
 	_neighboursScript as Boo.Lang.Hash
-	
+	static CoordinatedGameScriptTable as Boo.Lang.Hash
 	[SerializeField] _terrainType as TerrainTypeEnum
 	/*
 	final _terrainNeighbours as Boo.Lang.Hash =  {MoveAspectClass.TerrainNeighbours.North: null, MoveAspectClass.TerrainNeighbours.East: null,
@@ -31,7 +31,7 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 	[SerializeField]	
 	public HighLightedMaterial as Material
 	
-	enum TerrainTypeEnum:
+	public enum TerrainTypeEnum:
 		plain
 		hill
 		forrest
@@ -330,17 +330,23 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 	static def RecursiveTerrainSearchScript(startPoint as TerrainScript, ourTeam as TeamScript.PlayerNumberEnum, endCondition as callable, continueCode as callable, passedData as object, ref searchMatchedList as List, searchFunction1 as callable,searchedSet as List ) as void:
 		searchedSet.AddUnique(startPoint.GetInstanceID())
 		searchedObjectStack as List = [[startPoint,passedData]]
+		searchedNode as List;
+		closSet as List = [[startPoint,[999999,999999]]]
 		first as bool = true
 		goFor as bool = true
 		while len(searchedObjectStack) > 0:
 			goFor = true
-			searchedNode as List = searchedObjectStack[0]
+			searchedNode = searchedObjectStack[0]
 			searchedObjectStack.RemoveAt(0)
-			//if (searchedNode[0] as TerrainScript).GetInstanceID() in searchedSet:
+			if first == false:
+				alreadyInNode as List = closSet.Find({item as List | return (item[0] as TerrainScript).GetInstanceID() == (searchedNode[0] as TerrainScript).GetInstanceID()})
+				if alreadyInNode is null:
+					closSet.Add(searchedNode)
+			//if first == false and (searchedNode[0] as TerrainScript).GetInstanceID() in searchedSet:
 			//	goFor = false
 			searchedSet.AddUnique((searchedNode[0] as TerrainScript).GetInstanceID())
 			
-			if endCondition(searchedNode[1], searchedNode[0]) == true and first == false:
+			if endCondition(searchedNode[1], searchedNode[0], closSet) == true and first == false:
 				//a = endCondition(searchedNode[1], searchedNode[0])
 				goFor = false	
 			if( first == false and goFor == true and searchFunction1(searchedNode[0]) == true ):
@@ -380,6 +386,16 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 		//for neighbour as GameObject in neighboursToGoThrough:
 			//RecursiveTerrainSearch(TerrainScript.FindTerrainScript(neighbor), ourTeam, endCondition, continueCode, newPassedData, searchMatchedList, searchFunction, searchedSet) 
 		return 
+	def HightLightImplementation2(startPoint as TerrainScript, troopScript as TroopClass) as List:
+		pass
+		// Get the radius distance in optimal path from the unit
+		// Get a list of coordinates on the edge terrains.byte
+		// Check for coordinated of the grid
+		  // In that case get the closest aviable and replace in list
+		// Get the scripts from a global list and put in a list
+		// Get all the scripts within the grid.
+		// 
+		
 		
 		/*
 	static def RecursiveTerrainSearch(startPoint as TerrainScript, ourTeam as TeamScript.PlayerNumberEnum, endCondition as callable, continueCode as callable, passedData as object, ref searchMatchedList as List, searchFunction as callable,searchedSet as List ) as void:

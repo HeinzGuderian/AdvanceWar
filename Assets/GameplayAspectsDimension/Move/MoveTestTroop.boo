@@ -119,7 +119,15 @@ class MoveTestTroop (MonoBehaviour, IGUI, IGameState):
 			if(clickedTerrain.IsOccupied == true):
 				_currentPlayerGUI.PrintToScreen(AREA_OCCUPIED)
 				return
+			
+			/*
+			print(System.DateTime.Now)
+			print(System.DateTime.Now.Millisecond)
+			allNodes = MoveAspectClass.FindShortestPath(gameObject ,targetTerrain, false);
 			// Get the path list to the target
+			print(System.DateTime.Now)
+			print(System.DateTime.Now.Millisecond)
+			*/
 			pathStruct as MoveAspectClass.PathResult = MoveAspectClass.FindShortestPath(gameObject ,targetTerrain)
 			pathStruct.pathList.Add(targetTerrain)
 			pathStruct.pathList.RemoveAt(0) 
@@ -289,13 +297,19 @@ class MoveTestTroop (MonoBehaviour, IGUI, IGameState):
 		passedData1 as List = [0,0]
 		// + {goal as GameObject |return MoveAspectClass.FindShortestPath(gameObject, goal)}(neighbor).totalCost
 		//endCondition as callable = def(passedData as int, neighbor as TerrainScript):
-		endCondition as callable = def(passedData as List, neighbor as TerrainScript):	
+		endCondition as callable = def(passedData as List, neighbor as TerrainScript, closeSet as List):	
 			//if neighbor.gameObject.GetInstanceID() == _testInfantryTroop.OccupiedTerrainGameObject.GetInstanceID():
 			//	return false
 				
-			if neighbor.IsOccupied == true:
+			if neighbor.IsOccupied == true or neighbor.TerrainType == TerrainScript.TerrainTypeEnum.water:
 				//a = TerrainScript.FindTerrainScript(neighbor)
 				return true
+				
+			instanceId as int = neighbor.GetInstanceID()
+			nodeInCloseSet as List = closeSet.Find({item as List | return (item[0] as TerrainScript).GetInstanceID() == instanceId})
+			if nodeInCloseSet != null:
+				if passedData[0] cast int > (nodeInCloseSet[1] as List)[0] cast int and passedData[1] cast int > (nodeInCloseSet[1] as List)[1] cast int:
+					return true 
 			//MoveAspectClass.FindShortestPath(gameObject, neighbor).totalCost
 			/*
 			if passedData[1] cast int < _testInfantryTroop.Petrol:
@@ -308,15 +322,15 @@ class MoveTestTroop (MonoBehaviour, IGUI, IGameState):
 		
 		//continueCode as callable = {passedData as int, neighbor as TerrainScript | return passedData + MoveAspectClass.terrainMoveCost(_testInfantryTroop, neighbor.TerrainType ) cast int}
 		continueCode as callable = {passedData as List, neighbor as TerrainScript | return [passedData[0] cast int  + MoveAspectClass.terrainMoveCost(_testInfantryTroop, neighbor.TerrainType ) cast int,passedData[1]  cast int + MoveAspectClass.terrainMoveCost(_testInfantryTroop, neighbor.TerrainType ) cast int]}
-		searchfunction = {terrain as TerrainScript | return terrain.IsOccupied == false}
+		searchfunction = {terrain as TerrainScript | return terrain.IsOccupied == false and terrain.TerrainType != TerrainScript.TerrainTypeEnum.water}
 		//searchfunction = {terrain as GameObject | return true}
 		//terrainMoveCost(troopObject as UnityEngine.Object, terrain as TerrainScript.TerrainTypeEnum) as int:
 		searchedTerrain = []
-		//print(System.DateTime.Now)
-		//print(System.DateTime.Now.Millisecond)
+		print(System.DateTime.Now)
+		print(System.DateTime.Now.Millisecond)
 		TerrainScript.RecursiveTerrainSearchScript(startTerrain, ourTeam, endCondition, continueCode, passedData1, _highlightedTerrains, searchfunction, searchedTerrain)
-		//print(System.DateTime.Now)
-		//print(System.DateTime.Now.Millisecond)
+		print(System.DateTime.Now)
+		print(System.DateTime.Now.Millisecond)
 //		RecursiveTerrainSearch(startTerrain, ourTeam, endCondition as callable, continueCode as callable, passedData as object, ref searchMatchedList as List, searchFunction as callable ):
 		//startTerrain.RecursiveTerrainSearch(startTerrain, ourTeam, count , range , _highlightedTerrains, _searchFunction(ourTeam))
 		_highlightedTerrains.Add(_testInfantryTroop.OccupiedTerrain)
