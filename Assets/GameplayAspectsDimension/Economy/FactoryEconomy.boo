@@ -15,7 +15,8 @@ class FactoryEconomy (BuildingEconomy, IGUI):
 	final TARGET_NOT_TERRAIN as string = "You need to select a terrain tile."
 	final TARGET_TERRANI_IS_OCCUPIED as string= "The terrain is already occupied."
 	final MENU_NAME as string = "Buy Unit" 
-	final TARGET_TO_FAR as string = "You clicked a tile to far away"
+	final TARGET_TO_FAR as string = "You clicked a tile to far away."
+	final CANT_BUILD_ON_WATER as string = "You can't build on water."
 	
 	ButtonImage as Texture
 	
@@ -157,6 +158,9 @@ class FactoryEconomy (BuildingEconomy, IGUI):
 			return null
 		if _library.CalculateGridRange(newTerrain1, gameObject) >= 2:
 			_currentPlayerGUI.PrintToScreen(TARGET_TO_FAR)
+			return
+		if newTerrain.TerrainType == TerrainScript.TerrainTypeEnum.water:
+			_currentPlayerGUI.PrintToScreen(CANT_BUILD_ON_WATER)
 			return
 			
 		// Find, allocate and validate teamScript, buying players economy and set wait to build. 

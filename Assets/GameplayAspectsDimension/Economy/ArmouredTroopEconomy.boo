@@ -1,5 +1,5 @@
 partial class ArmoredTroop (TroopClass ): 
-	static virtual _productionCost as int = 100
+	static virtual _productionCost as int = 200
 	static ProductionCost as int:
 		get:
 			return _productionCost

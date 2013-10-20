@@ -1,15 +1,17 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Economy\TroopEconomyScript.boo">
     <Files>
-      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="152" Column="46" />
-      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="344" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Move\MoveAspectClass.boo" Line="164" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="175" Column="15" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\TroopScriptSaveLoadMultiplayer.boo" Line="24" Column="8" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="140" Column="17" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" Line="193" Column="32" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" Line="166" Column="61" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="300" Column="89" />
+      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="274" Column="83" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" Line="4" Column="2" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\ArmouredTroopEconomy.boo" Line="5" Column="3" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\ArtyTroopEconomy.boo" Line="2" Column="45" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\LogiTroopEconomy.boo" Line="2" Column="45" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\MechTroopEconomy.boo" Line="12" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\MotoTroopEconomy.boo" Line="2" Column="45" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\TroopEconomyScript.boo" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +19,6 @@
           <Node name="Assembly-Boo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="CoreTechnicalSystemsDimension" expanded="True">
-                <Node name="GameState" expanded="True" />
                 <Node name="SaveLoadMultiplayer" expanded="True">
                   <Node name="Serialise" expanded="True" />
                 </Node>
@@ -25,7 +26,7 @@
               <Node name="GameplayAspectsDimension" expanded="True">
                 <Node name="Combat" expanded="True" />
                 <Node name="Economy" expanded="True">
-                  <Node name="FactoryEconomy.boo" selected="True" />
+                  <Node name="TroopEconomyScript.boo" selected="True" />
                 </Node>
                 <Node name="Move" expanded="True" />
               </Node>

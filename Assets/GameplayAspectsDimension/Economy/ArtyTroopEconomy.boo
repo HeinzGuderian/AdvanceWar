@@ -1,5 +1,5 @@
 partial class ArtyTroop (TroopClass ): 
-	static virtual _productionCost as int = 100
+	static virtual _productionCost as int = 300
 	static ProductionCost as int:
 		get:
 			return _productionCost
