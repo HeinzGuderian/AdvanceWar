@@ -263,7 +263,10 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 		first as bool = true
 		goFor as bool = true
 		count = 0
+		whileCount=0
+		forCount=0
 		while len(searchedObjectStack) > 0:
+			whileCount = whileCount + 1
 			goFor = true
 			searchedNode as List = searchedObjectStack[0]
 			searchedObjectStack.RemoveAt(0)
@@ -280,6 +283,7 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 			if goFor == true:
 				index = 0
 				for neighborDict in (searchedNode[0]  as TerrainScript).TerrainNeighborsScript: 
+					forCount = forCount + 1
 					neighbor as TerrainScript = neighborDict.Value
 					if neighbor == null:
 						continue
@@ -297,7 +301,8 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 					//searchedSet.AddUnique(neighbor.GetInstanceID())
 					searchedObjectStack.Add([neighbor,continueCode(searchedNode[1], neighbor)])
 				index += 1
-//		print(count)
+		//print(whileCount)
+		//print(forCount)
 		return 
 	
 	static def RecursiveTerrainSearchGridsScript(startPoint as TerrainScript, ourTeam as TeamScript.PlayerNumberEnum, count as int, range as int, ref searchMatchedList as List, searchFunction as callable,ref searchedSet as List  ) as void:

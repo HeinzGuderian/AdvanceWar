@@ -17,6 +17,7 @@ partial class TroopClass (INormalForm):
 			properties["Petrol"] = null
 			properties["ActionPoints"] = null
 			properties["IsMoving"] = null
+			properties["OverWhatchNumber"] = null
 			return properties
 	
 	virtual PropertyInfo as Boo.Lang.Hash:
@@ -32,6 +33,7 @@ partial class TroopClass (INormalForm):
 			properties["Petrol"] = Petrol
 			properties["ActionPoints"] = ActionPoints
 			properties["IsMoving"] = IsMoving
+			properties["OverWhatchNumber"] = OverWhatchNumber
 			return properties
 			
 	public static ResourcesLoadTable as Boo.Lang.Hash /* = {

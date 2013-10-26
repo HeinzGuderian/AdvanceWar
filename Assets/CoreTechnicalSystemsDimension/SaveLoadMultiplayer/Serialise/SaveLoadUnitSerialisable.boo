@@ -53,9 +53,11 @@ class SaveLoadUnitSerialisable (ISerializable, ISaveLoadUnit):
 			currentProperty = currentType.GetProperty(pair.Key.ToString())
 			if currentProperty != null:
 				type = currentProperty.PropertyType
-				print(type)
-				
+				Debug.Log(pair.Key.ToString())
+				Debug.Log(type.FullName)
+				Debug.Log(info.GetValue(pair.Key.ToString(), type))
 				LoadStruct.propertyInfo[pair.Key.ToString()] = info.GetValue(pair.Key.ToString(), type)
+				
 		//a = SaveLoadMultiplayerAspectClass.MetaPropertyInfo
 			//info.AddValue(pair.Key.ToString(), pair.Value)
 		for hash in SaveLoadMultiplayerAspectClass.MetaPropertyInfo as Boo.Lang.Hash:

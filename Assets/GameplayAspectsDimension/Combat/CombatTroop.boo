@@ -112,9 +112,22 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 			print("Error: CombatTroop _testInfantryTroop is null.")
 		if _testInfantryData == null:
 			print("Error: CombatTroop _testInfantryData is null.")
+			
+	static def FindScript(gameObjectToSearch as GameObject):
+		troopScript as CombatTroop = gameObjectToSearch.GetComponent[of CombatTroop]()
+		return troopScript
 	
 	def StartTurnActions():
-		return
+		team as TeamScript = TeamScript.FindTeamScript(gameObject)
+		ifdef UNITY_EDITOR:
+			assert team != null
+		if _testInfantryTroop == null:
+			_testInfantryTroop = gameObject.GetComponent[of TroopClass]()
+		if team.IsOurTurn():
+			_testInfantryTroop.ActionPoints = _testInfantryTroop.MaxActionPoints
+		else:
+			_testInfantryTroop.ActionPoints = _testInfantryTroop.OverWhatchNumber
+			_testInfantryTroop.OverWhatchNumber = 0
 	
 	def EndTurnActions():
 		return
@@ -169,8 +182,8 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 			c = b[0]
 		for troop as TroopClass in [TroopClass.FindTroopScript(troop) for troop as GameObject in troopGameObjectList if troop.GetInstanceID() != gameObject.GetInstanceID()]:
 			a = troop
-			// Do we have OverwhatchAP left?
-			if troop.OverWhatchNumber == 0:
+			// Can we attack?
+			if troop.ActionPoints == 0:
 				// If not exit with positive value.
 				continue  
 			// Check if enemy.
@@ -181,12 +194,14 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 			if LibraryScript.CalculateGridRange(targetTerrain.gameObject, gameObject):
 				// If not exit with positive value 
 			  	continue
-			// Attack with intiative bonus if we are not spotted
+			
+			enemyCombatScript = CombatTroop.FindScript(troop.gameObject)
+			// Enemy Attack with intiative bonus if they have not been spotted
 			if _testInfantryTroop.Spotted == true:
 				_testInfantryTroop.CombatInitiative += 1
-			AllowedToAttackEnum = AllowedToAttack(troop.gameObject)
+			AllowedToAttackEnum = enemyCombatScript.AllowedToAttack(gameObject)
 			if(AllowedToAttackEnum == CombatAllowedErrorCodes.OKAY):
-				StartCoroutine(InitiateCombat(troop.gameObject))
+				StartCoroutine(enemyCombatScript.InitiateCombat(gameObject))
 				enemyHasEngaged = true
 		return not enemyHasEngaged
 		

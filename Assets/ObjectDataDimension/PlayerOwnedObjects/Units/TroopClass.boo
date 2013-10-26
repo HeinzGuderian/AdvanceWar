@@ -213,7 +213,7 @@ partial public class TroopClass (MonoBehaviour, IHighlight, IGUI, IUseTerrain, I
 		return
 		
 	def StartTurnActions():
-		ActionPoints = MaxActionPoints
+		pass
 		
 	
 	// Troop data

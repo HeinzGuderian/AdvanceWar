@@ -1,17 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Economy\TroopEconomyScript.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo">
     <Files>
-      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="300" Column="89" />
-      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="274" Column="83" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" Line="4" Column="2" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\ArmouredTroopEconomy.boo" Line="5" Column="3" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\ArtyTroopEconomy.boo" Line="2" Column="45" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\LogiTroopEconomy.boo" Line="2" Column="45" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\MechTroopEconomy.boo" Line="12" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\MotoTroopEconomy.boo" Line="2" Column="45" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" Line="1" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\TroopEconomyScript.boo" Line="17" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="351" Column="20" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="205" Column="27" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="148" Column="37" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="162" Column="35" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="73" Column="6" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo" Line="11" Column="14" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="198" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,18 +16,27 @@
           <Node name="Assembly-Boo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="CoreTechnicalSystemsDimension" expanded="True">
+                <Node name="GameState" expanded="True" />
+                <Node name="GUI" expanded="True" />
                 <Node name="SaveLoadMultiplayer" expanded="True">
                   <Node name="Serialise" expanded="True" />
+                  <Node name="Units" expanded="True" />
                 </Node>
               </Node>
               <Node name="GameplayAspectsDimension" expanded="True">
-                <Node name="Combat" expanded="True" />
-                <Node name="Economy" expanded="True">
-                  <Node name="TroopEconomyScript.boo" selected="True" />
+                <Node name="Combat" expanded="True">
+                  <Node name="CombatTroop.boo" selected="True" />
                 </Node>
+                <Node name="Economy" expanded="True" />
                 <Node name="Move" expanded="True" />
+                <Node name="Sight" expanded="True" />
+                <Node name="Supply" expanded="True" />
               </Node>
               <Node name="ObjectDataDimension" expanded="True">
+                <Node name="PlayerOwnedObjects" expanded="True">
+                  <Node name="Player" expanded="True" />
+                  <Node name="Units" expanded="True" />
+                </Node>
                 <Node name="Terrain" expanded="True" />
               </Node>
             </Node>
@@ -58,16 +64,21 @@
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="23" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" line="153" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" line="106" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="249" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="194" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="261" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="459" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="267" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="263" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="382" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="190" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\ObjectDataDimension\Terrain\TerrainScript.boo" line="385" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" line="238" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\ObjectDataDimension\Terrain\TerrainScript.boo" line="390" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="183" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="170" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="127" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="129" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="209" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="276" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="474" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="282" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="278" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="205" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="236" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="260" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="258" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
