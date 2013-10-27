@@ -201,7 +201,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 				_testInfantryTroop.CombatInitiative += 1
 			AllowedToAttackEnum = enemyCombatScript.AllowedToAttack(gameObject)
 			if(AllowedToAttackEnum == CombatAllowedErrorCodes.OKAY):
-				StartCoroutine(enemyCombatScript.InitiateCombat(gameObject))
+				StartCoroutine(enemyCombatScript.InitiateCombat(gameObject, true))
 				enemyHasEngaged = true
 		return not enemyHasEngaged
 		
@@ -269,15 +269,21 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 	
 	*/
 	def InitiateCombat(targetGO as GameObject) as System.Collections.IEnumerator:
+		yield StartCoroutine(InitiateCombat(targetGO, false))
+			
+	def InitiateCombat(targetGO as GameObject, reverseDisplay as bool) as System.Collections.IEnumerator:
 		// Need to select ourself, seance we cicked on the target and then the target became selected
 		AllowedToAttackEnum = AllowedToAttack(targetGO)
 		if(AllowedToAttackEnum != CombatAllowedErrorCodes.OKAY):
 			_currentPlayerGUI.PrintToScreen(CombatErrorTable[AllowedToAttackEnum])
 			yield
 		else: 
-			yield StartCoroutine(Combat(targetGO)	)
+			if reverseDisplay == true:
+				enemyCombatScript as CombatTroop = CombatTroop.FindScript(targetGO)
+				yield StartCoroutine(enemyCombatScript.Combat(gameObject))
+			else:
+				yield StartCoroutine(Combat(targetGO)	)
 		
-	
 	def Combat(targetGO as GameObject) as System.Collections.IEnumerator:
 		_testInfantryData.SetSelected()
 		MoveTestTroop.ChangeFacingTowards(gameObject, targetGO)
@@ -286,6 +292,8 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		SetAnimation(targetGO,"attack")
 		yield WaitForSeconds(2)
 		guiState = combatGuiState.showingScreen	
+		_targetTroop = TroopClass.FindTroopScript(targetGO)
+		assert _targetTroop != null
 		// Calculate damage
 		damagedMadeToTarget = attackDamage(_testInfantryTroop, _targetTroop)
 		//player1DamagedString = "Player 1 inflicted "+damagedMadeToTarget+" damage."
@@ -394,6 +402,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		SetAnimation(targetGO,"idle")
 		
 		_testInfantryTroop.ActionPoints -= _attackCost
+		_targetTroop.ActionPoints -= _attackCost
 		yield
 			
 	def applyAndHandleDamage():
