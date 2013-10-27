@@ -159,16 +159,17 @@ class MoveTestTroop (MonoBehaviour, IGUI, IGameState):
 				currentCost = 0
 				currentCost = MoveAspectClass.terrainMoveCost(_testInfantryTroop, terrainGrid.GetComponent[of TerrainScript]().TerrainType)
 				
-				ChangeFacingTowards(gameObject, targetTerrain)
+				ChangeFacingTowards(gameObject, terrainGrid)
 				//rot = transform.rotation;
 				pos = transform.position;
-				duration = 0.7
+				duration = 0.4
 				time = 0.0
 				while (time < duration):
 					time += Time.deltaTime;
 					transform.position = Vector3.Lerp(pos, terrainGrid.transform.position, time / duration);
 					//transform.rotation = Quaternion.Slerp(target.rotation, rot, time / originalTime);
 					yield;
+				
 				moveOneTerrain(terrainGrid)
 				_testInfantryTroop.ActionPoints -= currentCost
 				//setSelected()

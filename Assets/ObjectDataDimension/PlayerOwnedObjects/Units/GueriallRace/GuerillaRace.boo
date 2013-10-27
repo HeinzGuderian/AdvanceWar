@@ -51,10 +51,10 @@ class GuerillaRace (RaceScript, IVictoryCondition):
 		//_shipList = imperialShips.ShipList
 		_troopList = [ {"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyMechInf", Texture)), "value": Resources.Load("Troops_land/MechTroopPreFab"), "cost": MechTroop.ProductionCost}  ,
 		{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyArmored", Texture)), "value": Resources.Load("Troops_land/ArmoredTroopPreFab"), "cost": ArmoredTroop.ProductionCost} ,
-		{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyAntiAir", Texture)), "value": Resources.Load("Troops_land/AntiairTroopPreFab"), "cost": AntiairTroop.ProductionCost} ,
+		//{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyAntiAir", Texture)), "value": Resources.Load("Troops_land/AntiairTroopPreFab"), "cost": AntiairTroop.ProductionCost} ,
 		{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyArtillery", Texture)), "value": Resources.Load("Troops_land/ArtyTroopPreFab"), "cost": ArtyTroop.ProductionCost} ,
 		{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyMotoInf", Texture)), "value": Resources.Load("Troops_land/MotoTroopPreFab"), "cost": MotoTroop.ProductionCost} ,
-		{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyEngi", Texture)), "value": Resources.Load("Troops_land/EngineerTroopPreFab"), "cost": EngyTroop.ProductionCost} ,
+		//{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyEngi", Texture)), "value": Resources.Load("Troops_land/EngineerTroopPreFab"), "cost": EngyTroop.ProductionCost} ,
 		{"GUIContent" : GUIContent(Resources.Load("Textures/Buttons/tx_button_buyLogi", Texture)), "value": Resources.Load("Troops_land/LogisticsTroopPreFab"), "cost": LogiTroop.ProductionCost}
 		]
 		
