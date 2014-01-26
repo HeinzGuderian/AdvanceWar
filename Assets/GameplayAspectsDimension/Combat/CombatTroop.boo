@@ -7,7 +7,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 	_testInfantryData as DataScript
 	_testInfantryTroop as TroopClass
 	_CombatResult as int
-	_highlightedTerrains as List = []
+	//_highlightedTerrains as List = []
 	_searchFunction as callable
 	_searchCentralWarehouse as callable
 	_currentPlayerGUI as GuiScript
@@ -87,7 +87,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		 
 	
 	def Start ():
-		_searchFunction = {ourTeam as TeamScript.PlayerNumberEnum  |  return { x as GameObject | return  DataScript.FindDataScript(x).GameObjectType == DataScript.GameObjectTypeEnum.unit and ourTeam != TeamScript.FindTeamScript(x).Player and TroopClass.FindTroopScript(x).Spotted}}
+		_searchFunction = {ourTeam as TeamScript.PlayerNumberEnum  |  return { x as GameObject | return  DataScript.FindDataScript(x).GameObjectType == DataScript.GameObjectTypeEnum.unit and ourTeam != TeamScript.FindTeamScript(x).Player and TroopClass.FindTroopScript(x).Spotted} as callable}
 		_searchCentralWarehouse = {ourTeam as TeamScript.PlayerNumberEnum  |  return { x as GameObject | return (DataScript.FindDataScript(x).GameObjectType == DataScript.GameObjectTypeEnum.building and ourTeam != TeamScript.FindTeamScript(x).Player and x.GetComponent[of CentralWarehouseScript]() != null)}}
 		//_searchFunction = {ourTeam as TeamScript.PlayerNumberEnum  |  return { _ | return  false}}
 		//_searchFunction = { return  true}
@@ -481,9 +481,14 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		count as int = 0
 		
 		range as int = FarthestWeaponRange()
-		_highlightedTerrains = []
+		//_highlightedTerrains = []
 		searchedTerrain = []
-		
+		troopList as List = _library.FindObjectsWithTagSearch(gameObject, "Troop", range+1)
+		teamPrepearedSearchFunction as callable = _searchFunction(ourTeam) 
+		troopListOnlyVisibleEnemies = troopList.Collect() do(item as GameObject):
+			return  teamPrepearedSearchFunction(item) 
+		//_highlightedTerrains = map(troopList, { x as GameObject | return _library.FindTerrain(x.transform.position) as GameObject })
+		/* 
 		print(System.DateTime.Now)
 		print(System.DateTime.Now.Millisecond)
 		startTerrain.RecursiveTerrainObjectsSearchGrids(startTerrain, ourTeam, count , range , _highlightedTerrains, _searchFunction(ourTeam), searchedTerrain)
@@ -495,11 +500,12 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		startTerrain.RecursiveTerrainObjectsSearchGrids(startTerrain, ourTeam, count , range , _highlightedTerrains, _searchCentralWarehouse(ourTeam), searchedTerrain)
 		print(System.DateTime.Now)
 		print(System.DateTime.Now.Millisecond)
+		*/
 		//startTerrain.RecursiveTerrainObjectsSearchGrids(startTerrain, ourTeam, count , range , _highlightedTerrains, _searchFunction(ourTeam), searchedTerrain)
 		 
 			
-		for go as TroopClass in [(TroopClass.FindTroopScript(go) as TroopClass) for go as GameObject in _highlightedTerrains ]:
-			_attackMarkers.Add(Instantiate(UnityEngine.Resources.Load('Effects/IndicatorTargetEnemies'), go.gameObject.transform.position, Quaternion.identity))
+		for go as TroopClass in [(TroopClass.FindTroopScript(go) as TroopClass) for go as GameObject in troopListOnlyVisibleEnemies ]:
+			_attackMarkers.Add(Instantiate(UnityEngine.Resources.Load('Effects/IndicatorTargetEnemies'), go.transform.position, Quaternion.identity))
 			//(go as IHighlight).Highlight()
 			
 	def DeHighlightCombatUnits():

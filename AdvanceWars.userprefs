@@ -1,52 +1,32 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\GueriallRace\GuerillaRace.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs">
     <Files>
-      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="175" Column="19" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="508" Column="22" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="202" Column="28" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="162" Column="35" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="73" Column="6" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\TroopClassCombat.boo" Line="11" Column="14" />
-      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="162" Column="48" />
-      <File FileName="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" Line="172" Column="29" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Player\PlayerScript.boo" Line="62" Column="40" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\GueriallRace\GuerillaRace.boo" Line="59" Column="4" />
+      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="85" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="262" Column="8" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="186" Column="24" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="66" Column="37" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="514" Column="22" />
+      <File FileName="Assets\ObjectDataDimension\DataScript.boo" Line="1" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="65" Column="27" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="239" Column="33" />
+      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="16" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Assembly-Boo" expanded="True">
+          <Node name="Assembly-Boo" expanded="True" />
+          <Node name="Assembly-CSharp-firstpass" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="CoreTechnicalSystemsDimension" expanded="True">
-                <Node name="GameState" expanded="True" />
-                <Node name="GUI" expanded="True" />
-                <Node name="SaveLoadMultiplayer" expanded="True">
-                  <Node name="Serialise" expanded="True" />
-                  <Node name="Units" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="GameplayAspectsDimension" expanded="True">
-                <Node name="Combat" expanded="True" />
-                <Node name="Economy" expanded="True" />
-                <Node name="Move" expanded="True" />
-                <Node name="Sight" expanded="True" />
-                <Node name="Supply" expanded="True" />
-              </Node>
-              <Node name="ObjectDataDimension" expanded="True">
-                <Node name="PlayerOwnedObjects" expanded="True">
-                  <Node name="Buildings" expanded="True" />
-                  <Node name="Player" expanded="True" />
-                  <Node name="Units" expanded="True">
-                    <Node name="GueriallRace" expanded="True">
-                      <Node name="GuerillaRace.boo" selected="True" />
-                    </Node>
-                    <Node name="ImperialRace" expanded="True">
-                      <Node name="Units" expanded="True" />
-                    </Node>
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Camera Scripts" expanded="True">
+                    <Node name="OnTouchDown.cs" selected="True" />
                   </Node>
                 </Node>
-                <Node name="Terrain" expanded="True" />
+              </Node>
+              <Node name="Standard Assets (Mobile)" expanded="True">
+                <Node name="Shaders" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -70,7 +50,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="23" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" line="153" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" line="106" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" line="238" />
