@@ -109,7 +109,7 @@ partial public class GameState(MonoBehaviour):
 	public static def FindGameState() as GameState:
 		return GameObject.Find('GameRules').GetComponent[of GameState]()
 		
-	[Property(LibraryScript)]
+	[Boo.Lang.Extensions.Property(LibraryScript)]
 	_library as LibraryScript
 	def Start():
 		

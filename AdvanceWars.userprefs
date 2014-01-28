@@ -1,32 +1,34 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo">
     <Files>
-      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="85" Column="1" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="262" Column="8" />
-      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="186" Column="24" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="66" Column="37" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="514" Column="22" />
+      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="1" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="1" Column="1" />
       <File FileName="Assets\ObjectDataDimension\DataScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="65" Column="27" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="239" Column="33" />
-      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="16" Column="25" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="30" Column="2" />
+      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="17" Column="2" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="66" Column="47" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="71" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Assembly-Boo" expanded="True" />
-          <Node name="Assembly-CSharp-firstpass" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Standard Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Camera Scripts" expanded="True">
-                    <Node name="OnTouchDown.cs" selected="True" />
-                  </Node>
-                </Node>
+          <Node name="Assembly-Boo" expanded="True">
+            <Node name="CoreTechnicalSystemsDimension" expanded="True">
+              <Node name="GameState" expanded="True" />
+              <Node name="GUI" expanded="True">
+                <Node name="GuiScript.boo" selected="True" />
               </Node>
-              <Node name="Standard Assets (Mobile)" expanded="True">
-                <Node name="Shaders" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-firstpass" expanded="True">
+            <Node name="Standard Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Camera Scripts" expanded="True" />
               </Node>
             </Node>
           </Node>

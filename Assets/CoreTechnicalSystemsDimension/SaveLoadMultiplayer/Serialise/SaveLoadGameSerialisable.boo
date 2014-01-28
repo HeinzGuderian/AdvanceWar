@@ -66,7 +66,7 @@ class SaveLoadGameSerialisable (ISaveLoadGame):
 		if not Directory.Exists(_loginFolderPath()):
 			Directory.CreateDirectory(_loginFolderPath())
 		gameFilePath as string = _loginFolderPath()+"/"+"login.saveFile"
-		GameObject.FindObjectOfType(LoginScreen).GetComponent[of LoginScreen]().SaveUnit(gameFilePath) 
+		(GameObject.FindObjectOfType(LoginScreen) as GameObject).GetComponent[of LoginScreen]().SaveUnit(gameFilePath) 
 		
 	def SaveGame():
 		a = Application.persistentDataPath
