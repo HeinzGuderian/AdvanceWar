@@ -3,7 +3,12 @@ import UnityEngine
 class PostWEB (MonoBehaviour, ISaveLoadGame):
 	
 	//final STANDARD_URL as string = "http://85.8.6.204/game/index.php"
-	final STANDARD_URL as string = "http://54.217.213.92/game.com/index.php"//"http://localhost/game/index.php"
+	//"http://54.217.213.92/game.com/index.php"//"http://localhost/game/index.php"
+	//"http://mobilewebservicewars.apphb.com:80/"
+	//"http://localhost:49341/Index" 
+	final STANDARD_URL as string = "http://mobilewebservicewars.apphb.com:80/"//"http://localhost/game/index.php" //"http://mobilewebservicewars.apphb.com:80/" //
+	//final STANDARD_URL as string = "http://54.217.213.92/game.com/index.php" 
+	
 	_gameState as GameState
 	
 	def Awake():
@@ -117,6 +122,7 @@ class PostWEB (MonoBehaviour, ISaveLoadGame):
 		form as WWWForm = WWWForm();
 		form.AddField("Command", command)
 		form.AddField("GameID", gameID)
+		print(command)
 		print(dataToTransmit)
 		for field in dataToTransmit as Boo.Lang.Hash:
 			//nt32.TryParse(String, Int32)// - http://msdn.microsoft.com/en-us/library/f02979c7.aspx
@@ -125,10 +131,13 @@ class PostWEB (MonoBehaviour, ISaveLoadGame):
 			if field.Value isa bool:
 				number = field.Value
 				form.AddField( field.Key, number )
+				print(field.Key +" : " + number)
 			elif (false == result):
     			form.AddField( field.Key, field.Value.ToString() as string )
+    			print(field.Key + " : " + field.Value.ToString())
     		else:
 				form.AddField( field.Key, number )
+				print(field.Key + " : " + number)
 		//form.AddField("var1", "value1");
 		//form.AddField("var2", "value2");
 		www as WWW = WWW(url, form);
@@ -209,6 +218,7 @@ class PostWEB (MonoBehaviour, ISaveLoadGame):
 			Debug.Log("WWW Ok!: " + www.data + "\n");
 		else:
 			Debug.Log("WWW Error: "+ www.error);
+			Debug.Log("WWW Ok!: " + www.data + "\n");
 			
 		if callback != null:
 			callback(www.data)

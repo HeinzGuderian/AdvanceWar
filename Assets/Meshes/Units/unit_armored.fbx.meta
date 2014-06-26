@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 6ea1b7100e31ca64aa0b2b2658f74ed5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: aa_guns
+    100002: antiair_chassi
+    100004: antiair_gun
+    100006: antiair_robot
+    100008: antiair_tracks
+    100010: antiair_turret
+    100012: btr_driverview1
+    100014: btr_driverview2
+    100016: cannon
+    100018: cannon 1
+    100020: cannon 2
+    100022: cannon 3
+    100024: coax_hmg
+    100026: coax_hmg 1
+    100028: coax_hmg 2
+    100030: coax_hmg 3
+    100032: ifv_cannon
+    100034: ifv_chassis
+    100036: ifv_track
+    100038: ifv_turret
+    100040: locator_antiair1
+    100042: locator_ifv1
+    100044: locator_tank1
+    100046: locator_tank2
+    100048: locator_tank3
+    100050: locator_tank4
+    100052: pCylinder1
+    100054: pCylinder2
+    100056: pCylinder3
+    100058: polySurface7
+    100060: tank_chassi
+    100062: tank_chassi 1
+    100064: tank_chassi 2
+    100066: tank_chassi 3
+    100068: tank_hatch01
+    100070: tank_hatch01 1
+    100072: tank_hatch01 2
+    100074: tank_hatch01 3
+    100076: tank_hatch02
+    100078: tank_hatch02 1
+    100080: tank_hatch02 2
+    100082: tank_hatch02 3
+    100084: tank_tracks
+    100086: tank_tracks 1
+    100088: tank_tracks 2
+    100090: tank_tracks 3
+    100092: turret
+    100094: turret 1
+    100096: turret 2
+    100098: turret 3
+    100100: //RootNode
+    400000: aa_guns
+    400002: antiair_chassi
+    400004: antiair_gun
+    400006: antiair_robot
+    400008: antiair_tracks
+    400010: antiair_turret
+    400012: btr_driverview1
+    400014: btr_driverview2
+    400016: cannon
+    400018: cannon 1
+    400020: cannon 2
+    400022: cannon 3
+    400024: coax_hmg
+    400026: coax_hmg 1
+    400028: coax_hmg 2
+    400030: coax_hmg 3
+    400032: ifv_cannon
+    400034: ifv_chassis
+    400036: ifv_track
+    400038: ifv_turret
+    400040: locator_antiair1
+    400042: locator_ifv1
+    400044: locator_tank1
+    400046: locator_tank2
+    400048: locator_tank3
+    400050: locator_tank4
+    400052: pCylinder1
+    400054: pCylinder2
+    400056: pCylinder3
+    400058: polySurface7
+    400060: tank_chassi
+    400062: tank_chassi 1
+    400064: tank_chassi 2
+    400066: tank_chassi 3
+    400068: tank_hatch01
+    400070: tank_hatch01 1
+    400072: tank_hatch01 2
+    400074: tank_hatch01 3
+    400076: tank_hatch02
+    400078: tank_hatch02 1
+    400080: tank_hatch02 2
+    400082: tank_hatch02 3
+    400084: tank_tracks
+    400086: tank_tracks 1
+    400088: tank_tracks 2
+    400090: tank_tracks 3
+    400092: turret
+    400094: turret 1
+    400096: turret 2
+    400098: turret 3
+    400100: //RootNode
+    2300000: aa_guns
+    2300002: antiair_chassi
+    2300004: antiair_robot
+    2300006: antiair_tracks
+    2300008: antiair_turret
+    2300010: btr_driverview1
+    2300012: btr_driverview2
+    2300014: cannon
+    2300016: cannon 1
+    2300018: cannon 2
+    2300020: cannon 3
+    2300022: coax_hmg
+    2300024: coax_hmg 1
+    2300026: coax_hmg 2
+    2300028: coax_hmg 3
+    2300030: ifv_cannon
+    2300032: ifv_chassis
+    2300034: ifv_track
+    2300036: ifv_turret
+    2300038: pCylinder1
+    2300040: pCylinder2
+    2300042: pCylinder3
+    2300044: polySurface7
+    2300046: tank_chassi
+    2300048: tank_chassi 1
+    2300050: tank_chassi 2
+    2300052: tank_chassi 3
+    2300054: tank_hatch01
+    2300056: tank_hatch01 1
+    2300058: tank_hatch01 2
+    2300060: tank_hatch01 3
+    2300062: tank_hatch02
+    2300064: tank_hatch02 1
+    2300066: tank_hatch02 2
+    2300068: tank_hatch02 3
+    2300070: tank_tracks
+    2300072: tank_tracks 1
+    2300074: tank_tracks 2
+    2300076: tank_tracks 3
+    2300078: turret
+    2300080: turret 1
+    2300082: turret 2
+    2300084: turret 3
+    3300000: aa_guns
+    3300002: antiair_chassi
+    3300004: antiair_robot
+    3300006: antiair_tracks
+    3300008: antiair_turret
+    3300010: btr_driverview1
+    3300012: btr_driverview2
+    3300014: cannon
+    3300016: cannon 1
+    3300018: cannon 2
+    3300020: cannon 3
+    3300022: coax_hmg
+    3300024: coax_hmg 1
+    3300026: coax_hmg 2
+    3300028: coax_hmg 3
+    3300030: ifv_cannon
+    3300032: ifv_chassis
+    3300034: ifv_track
+    3300036: ifv_turret
+    3300038: pCylinder1
+    3300040: pCylinder2
+    3300042: pCylinder3
+    3300044: polySurface7
+    3300046: tank_chassi
+    3300048: tank_chassi 1
+    3300050: tank_chassi 2
+    3300052: tank_chassi 3
+    3300054: tank_hatch01
+    3300056: tank_hatch01 1
+    3300058: tank_hatch01 2
+    3300060: tank_hatch01 3
+    3300062: tank_hatch02
+    3300064: tank_hatch02 1
+    3300066: tank_hatch02 2
+    3300068: tank_hatch02 3
+    3300070: tank_tracks
+    3300072: tank_tracks 1
+    3300074: tank_tracks 2
+    3300076: tank_tracks 3
+    3300078: turret
+    3300080: turret 1
+    3300082: turret 2
+    3300084: turret 3
+    4300000: turret
+    4300002: cannon
+    4300004: coax_hmg
+    4300006: tank_hatch02
+    4300008: tank_hatch01
+    4300010: tank_chassi
+    4300012: tank_tracks
+    4300014: turret
+    4300016: cannon
+    4300018: coax_hmg
+    4300020: tank_hatch02
+    4300022: tank_hatch01
+    4300024: tank_chassi
+    4300026: tank_tracks
+    4300028: turret
+    4300030: cannon
+    4300032: coax_hmg
+    4300034: tank_hatch02
+    4300036: tank_hatch01
+    4300038: tank_chassi
+    4300040: tank_tracks
+    4300042: ifv_turret
+    4300044: pCylinder1
+    4300046: ifv_cannon
+    4300048: ifv_chassis
+    4300050: pCylinder3
+    4300052: pCylinder2
+    4300054: ifv_track
+    4300056: turret
+    4300058: cannon
+    4300060: coax_hmg
+    4300062: tank_hatch02
+    4300064: tank_hatch01
+    4300066: tank_chassi
+    4300068: tank_tracks
+    4300070: antiair_chassi
+    4300072: btr_driverview2
+    4300074: antiair_turret
+    4300076: polySurface7
+    4300078: antiair_robot
+    4300080: aa_guns
+    4300082: btr_driverview1
+    4300084: antiair_tracks
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

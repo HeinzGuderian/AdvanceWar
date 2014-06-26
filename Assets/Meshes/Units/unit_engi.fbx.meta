@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 46da3a2ad84412846b42976517914b62
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: btr_driverview
+    100002: btr_driverview 1
+    100004: btr_gun
+    100006: btr_gun 1
+    100008: btr_turret
+    100010: btr_turret 1
+    100012: btr_wheel1
+    100014: btr_wheel1 1
+    100016: btr_wheel1 2
+    100018: btr_wheel1 3
+    100020: btr_wheel2
+    100022: btr_wheel2 1
+    100024: btr_wheel2 2
+    100026: btr_wheel2 3
+    100028: btr_wheel3
+    100030: btr_wheel3 1
+    100032: btr_wheel3 2
+    100034: btr_wheel3 3
+    100036: btr_wheel4
+    100038: btr_wheel4 1
+    100040: btr_wheel4 2
+    100042: btr_wheel4 3
+    100044: engi_arm1
+    100046: engi_arm1 1
+    100048: engi_arm2
+    100050: engi_arm2 1
+    100052: engi_chassis
+    100054: engi_chassis 1
+    100056: engi_frontscoop
+    100058: engi_frontscoop 1
+    100060: engi_scoop
+    100062: engi_scoop 1
+    100064: engi_tracks
+    100066: engi_tracks 1
+    100068: group1
+    100070: group1 1
+    100072: group5
+    100074: group5 1
+    100076: group6
+    100078: group6 1
+    100080: jeep_Body
+    100082: jeep_driverview
+    100084: jeep_driverview1
+    100086: jeep_gun
+    100088: jeep_turret
+    100090: jeep_wheel1
+    100092: jeep_wheel2
+    100094: jeep_wheel3
+    100096: jeep_wheel4
+    100098: locator_btr1
+    100100: locator_btr2
+    100102: locator_engi1
+    100104: locator_engi2
+    100106: locator_jeep6
+    100108: locator_logi5
+    100110: logi_body
+    100112: logi_wheel1_1
+    100114: logi_wheel1_2
+    100116: logi_wheel1_3
+    100118: logi_wheel1_4
+    100120: pCube3
+    100122: pCube3 1
+    100124: polySurface2
+    100126: polySurface2 1
+    100128: transform8
+    100130: transform8 1
+    100132: //RootNode
+    400000: btr_driverview
+    400002: btr_driverview 1
+    400004: btr_gun
+    400006: btr_gun 1
+    400008: btr_turret
+    400010: btr_turret 1
+    400012: btr_wheel1
+    400014: btr_wheel1 1
+    400016: btr_wheel1 2
+    400018: btr_wheel1 3
+    400020: btr_wheel2
+    400022: btr_wheel2 1
+    400024: btr_wheel2 2
+    400026: btr_wheel2 3
+    400028: btr_wheel3
+    400030: btr_wheel3 1
+    400032: btr_wheel3 2
+    400034: btr_wheel3 3
+    400036: btr_wheel4
+    400038: btr_wheel4 1
+    400040: btr_wheel4 2
+    400042: btr_wheel4 3
+    400044: engi_arm1
+    400046: engi_arm1 1
+    400048: engi_arm2
+    400050: engi_arm2 1
+    400052: engi_chassis
+    400054: engi_chassis 1
+    400056: engi_frontscoop
+    400058: engi_frontscoop 1
+    400060: engi_scoop
+    400062: engi_scoop 1
+    400064: engi_tracks
+    400066: engi_tracks 1
+    400068: group1
+    400070: group1 1
+    400072: group5
+    400074: group5 1
+    400076: group6
+    400078: group6 1
+    400080: jeep_Body
+    400082: jeep_driverview
+    400084: jeep_driverview1
+    400086: jeep_gun
+    400088: jeep_turret
+    400090: jeep_wheel1
+    400092: jeep_wheel2
+    400094: jeep_wheel3
+    400096: jeep_wheel4
+    400098: locator_btr1
+    400100: locator_btr2
+    400102: locator_engi1
+    400104: locator_engi2
+    400106: locator_jeep6
+    400108: locator_logi5
+    400110: logi_body
+    400112: logi_wheel1_1
+    400114: logi_wheel1_2
+    400116: logi_wheel1_3
+    400118: logi_wheel1_4
+    400120: pCube3
+    400122: pCube3 1
+    400124: polySurface2
+    400126: polySurface2 1
+    400128: transform8
+    400130: transform8 1
+    400132: //RootNode
+    2300000: btr_driverview
+    2300002: btr_driverview 1
+    2300004: btr_gun
+    2300006: btr_gun 1
+    2300008: btr_turret
+    2300010: btr_turret 1
+    2300012: btr_wheel1
+    2300014: btr_wheel1 1
+    2300016: btr_wheel1 2
+    2300018: btr_wheel1 3
+    2300020: btr_wheel2
+    2300022: btr_wheel2 1
+    2300024: btr_wheel2 2
+    2300026: btr_wheel2 3
+    2300028: btr_wheel3
+    2300030: btr_wheel3 1
+    2300032: btr_wheel3 2
+    2300034: btr_wheel3 3
+    2300036: btr_wheel4
+    2300038: btr_wheel4 1
+    2300040: btr_wheel4 2
+    2300042: btr_wheel4 3
+    2300044: engi_arm1
+    2300046: engi_arm1 1
+    2300048: engi_arm2
+    2300050: engi_arm2 1
+    2300052: engi_chassis
+    2300054: engi_chassis 1
+    2300056: engi_frontscoop
+    2300058: engi_frontscoop 1
+    2300060: engi_scoop
+    2300062: engi_scoop 1
+    2300064: engi_tracks
+    2300066: engi_tracks 1
+    2300068: jeep_Body
+    2300070: jeep_driverview
+    2300072: jeep_driverview1
+    2300074: jeep_gun
+    2300076: jeep_turret
+    2300078: jeep_wheel1
+    2300080: jeep_wheel2
+    2300082: jeep_wheel3
+    2300084: jeep_wheel4
+    2300086: logi_body
+    2300088: logi_wheel1_1
+    2300090: logi_wheel1_2
+    2300092: logi_wheel1_3
+    2300094: logi_wheel1_4
+    2300096: polySurface2
+    2300098: polySurface2 1
+    3300000: btr_driverview
+    3300002: btr_driverview 1
+    3300004: btr_gun
+    3300006: btr_gun 1
+    3300008: btr_turret
+    3300010: btr_turret 1
+    3300012: btr_wheel1
+    3300014: btr_wheel1 1
+    3300016: btr_wheel1 2
+    3300018: btr_wheel1 3
+    3300020: btr_wheel2
+    3300022: btr_wheel2 1
+    3300024: btr_wheel2 2
+    3300026: btr_wheel2 3
+    3300028: btr_wheel3
+    3300030: btr_wheel3 1
+    3300032: btr_wheel3 2
+    3300034: btr_wheel3 3
+    3300036: btr_wheel4
+    3300038: btr_wheel4 1
+    3300040: btr_wheel4 2
+    3300042: btr_wheel4 3
+    3300044: engi_arm1
+    3300046: engi_arm1 1
+    3300048: engi_arm2
+    3300050: engi_arm2 1
+    3300052: engi_chassis
+    3300054: engi_chassis 1
+    3300056: engi_frontscoop
+    3300058: engi_frontscoop 1
+    3300060: engi_scoop
+    3300062: engi_scoop 1
+    3300064: engi_tracks
+    3300066: engi_tracks 1
+    3300068: jeep_Body
+    3300070: jeep_driverview
+    3300072: jeep_driverview1
+    3300074: jeep_gun
+    3300076: jeep_turret
+    3300078: jeep_wheel1
+    3300080: jeep_wheel2
+    3300082: jeep_wheel3
+    3300084: jeep_wheel4
+    3300086: logi_body
+    3300088: logi_wheel1_1
+    3300090: logi_wheel1_2
+    3300092: logi_wheel1_3
+    3300094: logi_wheel1_4
+    3300096: polySurface2
+    3300098: polySurface2 1
+    4300000: btr_turret
+    4300002: btr_gun
+    4300004: btr_wheel1
+    4300006: btr_wheel2
+    4300008: btr_wheel3
+    4300010: btr_wheel4
+    4300012: btr_wheel1
+    4300014: btr_wheel2
+    4300016: btr_wheel3
+    4300018: btr_wheel4
+    4300020: btr_driverview
+    4300022: polySurface2
+    4300024: engi_tracks
+    4300026: engi_chassis
+    4300028: engi_arm1
+    4300030: engi_arm2
+    4300032: engi_scoop
+    4300034: engi_frontscoop
+    4300036: engi_tracks
+    4300038: engi_chassis
+    4300040: engi_arm1
+    4300042: engi_arm2
+    4300044: engi_scoop
+    4300046: engi_frontscoop
+    4300048: btr_turret
+    4300050: btr_gun
+    4300052: btr_wheel1
+    4300054: btr_wheel2
+    4300056: btr_wheel3
+    4300058: btr_wheel4
+    4300060: btr_wheel1
+    4300062: btr_wheel2
+    4300064: btr_wheel3
+    4300066: btr_wheel4
+    4300068: btr_driverview
+    4300070: polySurface2
+    4300072: logi_body
+    4300074: logi_wheel1_2
+    4300076: logi_wheel1_3
+    4300078: logi_wheel1_1
+    4300080: logi_wheel1_4
+    4300082: jeep_wheel2
+    4300084: jeep_wheel3
+    4300086: jeep_wheel1
+    4300088: jeep_wheel4
+    4300090: jeep_Body
+    4300092: jeep_driverview
+    4300094: jeep_driverview1
+    4300096: jeep_turret
+    4300098: jeep_gun
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

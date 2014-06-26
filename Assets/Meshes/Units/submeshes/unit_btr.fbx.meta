@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 6d9fb4e5cbda6084a8647e1dccd3b731
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: btr_body
+    100002: btr_driverview
+    100004: btr_gun
+    100006: btr_turret
+    100008: btr_wheel1
+    100010: btr_wheel1 1
+    100012: btr_wheel2
+    100014: btr_wheel2 1
+    100016: btr_wheel3
+    100018: btr_wheel3 1
+    100020: btr_wheel4
+    100022: btr_wheel4 1
+    100024: group1
+    100026: group5
+    100028: group6
+    100030: pCube3
+    100032: transform8
+    100034: //RootNode
+    400000: btr_body
+    400002: btr_driverview
+    400004: btr_gun
+    400006: btr_turret
+    400008: btr_wheel1
+    400010: btr_wheel1 1
+    400012: btr_wheel2
+    400014: btr_wheel2 1
+    400016: btr_wheel3
+    400018: btr_wheel3 1
+    400020: btr_wheel4
+    400022: btr_wheel4 1
+    400024: group1
+    400026: group5
+    400028: group6
+    400030: pCube3
+    400032: transform8
+    400034: //RootNode
+    2300000: btr_body
+    2300002: btr_driverview
+    2300004: btr_gun
+    2300006: btr_turret
+    2300008: btr_wheel1
+    2300010: btr_wheel1 1
+    2300012: btr_wheel2
+    2300014: btr_wheel2 1
+    2300016: btr_wheel3
+    2300018: btr_wheel3 1
+    2300020: btr_wheel4
+    2300022: btr_wheel4 1
+    3300000: btr_body
+    3300002: btr_driverview
+    3300004: btr_gun
+    3300006: btr_turret
+    3300008: btr_wheel1
+    3300010: btr_wheel1 1
+    3300012: btr_wheel2
+    3300014: btr_wheel2 1
+    3300016: btr_wheel3
+    3300018: btr_wheel3 1
+    3300020: btr_wheel4
+    3300022: btr_wheel4 1
+    4300000: btr_turret
+    4300002: btr_gun
+    4300004: btr_wheel1
+    4300006: btr_wheel2
+    4300008: btr_wheel3
+    4300010: btr_wheel4
+    4300012: btr_wheel1
+    4300014: btr_wheel2
+    4300016: btr_wheel3
+    4300018: btr_wheel4
+    4300020: btr_body
+    4300022: btr_driverview
+    7400000: tank_vertcolortest2
+    7400016: idle
+    7400018: attack
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 20
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: 
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

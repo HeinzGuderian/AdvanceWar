@@ -2,14 +2,14 @@ drop database start_game;
 create database start_game;
 use start_game;
 
-CREATE TABLE maps(
+CREATE TABLE start_maps(
 	maps_id INT NOT NULL UNIQUE,
 	MapName VARCHAR(30) NOT NULL,
 	PRIMARY KEY (maps_id),
 	INDEX(maps_id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE player(
+CREATE TABLE start_player(
 	player_id INT NOT NULL AUTO_INCREMENT UNIQUE,
 	MapID INT NOT NULL,
 	Player VARCHAR(30) NOT NULL, 
@@ -23,7 +23,7 @@ CREATE TABLE player(
 	
 ) ENGINE=InnoDB;
 
-CREATE TABLE troop_class (
+CREATE TABLE start_troop_class (
 	troop_class_id INT NOT NULL AUTO_INCREMENT UNIQUE,
 	MapID INT NOT NULL,
 	Health INT NOT NULL,
@@ -43,12 +43,12 @@ CREATE TABLE troop_class (
 	Name VARCHAR(30) NOT NULL,
 	Type VARCHAR(30) NOT NULL,
 	PRIMARY KEY (troop_class_id),
-	FOREIGN KEY (MapID) REFERENCES maps(maps_id)
+	FOREIGN KEY (MapID) REFERENCES start_maps(maps_id)
                       ON DELETE CASCADE ,
 	INDEX(troop_class_id)
 ) ENGINE=InnoDB;
 
-CREATE TABLE supply_unit(
+CREATE TABLE start_supply_unit(
 	supply_unit_id INT NOT NULL UNIQUE,
 	
 	SupplyPetrol INT NOT NULL,
@@ -57,13 +57,13 @@ CREATE TABLE supply_unit(
 	LoadWeight INT NOT NULL,
 	MaxWeight INT NOT NULL,
 	PRIMARY KEY (supply_unit_id),
-	FOREIGN KEY (supply_unit_id) REFERENCES troop_class(troop_class_id)
+	FOREIGN KEY (supply_unit_id) REFERENCES start_troop_class(troop_class_id)
                       ON DELETE CASCADE
 
 ) ENGINE=InnoDB;
 
 
-CREATE TABLE central_warehouse (
+CREATE TABLE start_central_warehouse (
 	central_warehouse_id INT NOT NULL AUTO_INCREMENT UNIQUE,
 	MapID INT NOT NULL,
 	SupplyPetrol INT NOT NULL,
@@ -79,13 +79,13 @@ CREATE TABLE central_warehouse (
 	Name VARCHAR(30) NOT NULL,
 	Type VARCHAR(30) NOT NULL,
 	PRIMARY KEY (central_warehouse_id),
-	FOREIGN KEY (MapID) REFERENCES maps(maps_id)
+	FOREIGN KEY (MapID) REFERENCES start_maps(maps_id)
                       ON DELETE CASCADE ,
 	INDEX(central_warehouse_id)
 
 ) ENGINE=InnoDB;
 
-CREATE TABLE factory (
+CREATE TABLE start_factory (
 	factory_id INT NOT NULL AUTO_INCREMENT UNIQUE,
 	MapID INT NOT NULL,
 	PositionX INT NOT NULL,
@@ -95,13 +95,13 @@ CREATE TABLE factory (
 	Name VARCHAR(30) NOT NULL,
 	Type VARCHAR(30) NOT NULL,
 	PRIMARY KEY (factory_id),
-	FOREIGN KEY (MapID) REFERENCES maps(maps_id)
+	FOREIGN KEY (MapID) REFERENCES start_maps(maps_id)
                       ON DELETE CASCADE ,
 	INDEX(factory_id)
 
 ) ENGINE=InnoDB;
 
-CREATE TABLE oilfield (
+CREATE TABLE start_oilfield (
 	oilfield_id INT NOT NULL AUTO_INCREMENT UNIQUE,
 	MapID INT NOT NULL,
 	ProducedVRPerTurn INT NOT NULL,
@@ -114,7 +114,7 @@ CREATE TABLE oilfield (
 	Name VARCHAR(30) NOT NULL,
 	Type VARCHAR(30) NOT NULL,
 	PRIMARY KEY (oilfield_id ),
-	FOREIGN KEY (MapID) REFERENCES maps(maps_id)
+	FOREIGN KEY (MapID) REFERENCES start_maps(maps_id)
                       ON DELETE CASCADE ,
 	INDEX(oilfield_id)
 
@@ -124,4 +124,4 @@ create user 'game_client'@'%' identified by 'readOnlyPass';
 GRANT SELECT ON start_game.* to 'game_client'@'%';
 flush privileges;
 
-insert into maps values(0,"test map");
+insert into start_maps values(0,"test map");

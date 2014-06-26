@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 62b022732c455fe46ad6f41bff126116
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: aa_guns
+    100002: aa_guns 1
+    100004: aa_guns 2
+    100006: aa_guns 3
+    100008: antiair_chassi
+    100010: antiair_chassi 1
+    100012: antiair_chassi 2
+    100014: antiair_chassi 3
+    100016: antiair_gun
+    100018: antiair_gun 1
+    100020: antiair_gun 2
+    100022: antiair_gun 3
+    100024: antiair_robot
+    100026: antiair_robot 1
+    100028: antiair_robot 2
+    100030: antiair_robot 3
+    100032: antiair_tracks
+    100034: antiair_tracks 1
+    100036: antiair_tracks 2
+    100038: antiair_tracks 3
+    100040: antiair_turret
+    100042: antiair_turret 1
+    100044: antiair_turret 2
+    100046: antiair_turret 3
+    100048: btr_driverview1
+    100050: btr_driverview1 1
+    100052: btr_driverview1 2
+    100054: btr_driverview1 3
+    100056: btr_driverview2
+    100058: btr_driverview2 1
+    100060: btr_driverview2 2
+    100062: btr_driverview2 3
+    100064: locator_antiair2
+    100066: locator_antiair3
+    100068: locator_antiair4
+    100070: locator_antiair5
+    100072: locator_logi6
+    100074: logi_body
+    100076: logi_wheel1_1
+    100078: logi_wheel1_2
+    100080: logi_wheel1_3
+    100082: logi_wheel1_4
+    100084: polySurface7
+    100086: polySurface7 1
+    100088: polySurface7 2
+    100090: polySurface7 3
+    100092: //RootNode
+    400000: aa_guns
+    400002: aa_guns 1
+    400004: aa_guns 2
+    400006: aa_guns 3
+    400008: antiair_chassi
+    400010: antiair_chassi 1
+    400012: antiair_chassi 2
+    400014: antiair_chassi 3
+    400016: antiair_gun
+    400018: antiair_gun 1
+    400020: antiair_gun 2
+    400022: antiair_gun 3
+    400024: antiair_robot
+    400026: antiair_robot 1
+    400028: antiair_robot 2
+    400030: antiair_robot 3
+    400032: antiair_tracks
+    400034: antiair_tracks 1
+    400036: antiair_tracks 2
+    400038: antiair_tracks 3
+    400040: antiair_turret
+    400042: antiair_turret 1
+    400044: antiair_turret 2
+    400046: antiair_turret 3
+    400048: btr_driverview1
+    400050: btr_driverview1 1
+    400052: btr_driverview1 2
+    400054: btr_driverview1 3
+    400056: btr_driverview2
+    400058: btr_driverview2 1
+    400060: btr_driverview2 2
+    400062: btr_driverview2 3
+    400064: locator_antiair2
+    400066: locator_antiair3
+    400068: locator_antiair4
+    400070: locator_antiair5
+    400072: locator_logi6
+    400074: logi_body
+    400076: logi_wheel1_1
+    400078: logi_wheel1_2
+    400080: logi_wheel1_3
+    400082: logi_wheel1_4
+    400084: polySurface7
+    400086: polySurface7 1
+    400088: polySurface7 2
+    400090: polySurface7 3
+    400092: //RootNode
+    2300000: aa_guns
+    2300002: aa_guns 1
+    2300004: aa_guns 2
+    2300006: aa_guns 3
+    2300008: antiair_chassi
+    2300010: antiair_chassi 1
+    2300012: antiair_chassi 2
+    2300014: antiair_chassi 3
+    2300016: antiair_robot
+    2300018: antiair_robot 1
+    2300020: antiair_robot 2
+    2300022: antiair_robot 3
+    2300024: antiair_tracks
+    2300026: antiair_tracks 1
+    2300028: antiair_tracks 2
+    2300030: antiair_tracks 3
+    2300032: antiair_turret
+    2300034: antiair_turret 1
+    2300036: antiair_turret 2
+    2300038: antiair_turret 3
+    2300040: btr_driverview1
+    2300042: btr_driverview1 1
+    2300044: btr_driverview1 2
+    2300046: btr_driverview1 3
+    2300048: btr_driverview2
+    2300050: btr_driverview2 1
+    2300052: btr_driverview2 2
+    2300054: btr_driverview2 3
+    2300056: logi_body
+    2300058: logi_wheel1_1
+    2300060: logi_wheel1_2
+    2300062: logi_wheel1_3
+    2300064: logi_wheel1_4
+    2300066: polySurface7
+    2300068: polySurface7 1
+    2300070: polySurface7 2
+    2300072: polySurface7 3
+    3300000: aa_guns
+    3300002: aa_guns 1
+    3300004: aa_guns 2
+    3300006: aa_guns 3
+    3300008: antiair_chassi
+    3300010: antiair_chassi 1
+    3300012: antiair_chassi 2
+    3300014: antiair_chassi 3
+    3300016: antiair_robot
+    3300018: antiair_robot 1
+    3300020: antiair_robot 2
+    3300022: antiair_robot 3
+    3300024: antiair_tracks
+    3300026: antiair_tracks 1
+    3300028: antiair_tracks 2
+    3300030: antiair_tracks 3
+    3300032: antiair_turret
+    3300034: antiair_turret 1
+    3300036: antiair_turret 2
+    3300038: antiair_turret 3
+    3300040: btr_driverview1
+    3300042: btr_driverview1 1
+    3300044: btr_driverview1 2
+    3300046: btr_driverview1 3
+    3300048: btr_driverview2
+    3300050: btr_driverview2 1
+    3300052: btr_driverview2 2
+    3300054: btr_driverview2 3
+    3300056: logi_body
+    3300058: logi_wheel1_1
+    3300060: logi_wheel1_2
+    3300062: logi_wheel1_3
+    3300064: logi_wheel1_4
+    3300066: polySurface7
+    3300068: polySurface7 1
+    3300070: polySurface7 2
+    3300072: polySurface7 3
+    4300000: antiair_chassi
+    4300002: btr_driverview2
+    4300004: antiair_turret
+    4300006: polySurface7
+    4300008: antiair_robot
+    4300010: aa_guns
+    4300012: btr_driverview1
+    4300014: antiair_tracks
+    4300016: antiair_chassi
+    4300018: btr_driverview2
+    4300020: antiair_turret
+    4300022: polySurface7
+    4300024: antiair_robot
+    4300026: aa_guns
+    4300028: btr_driverview1
+    4300030: antiair_tracks
+    4300032: antiair_chassi
+    4300034: btr_driverview2
+    4300036: antiair_turret
+    4300038: polySurface7
+    4300040: antiair_robot
+    4300042: aa_guns
+    4300044: btr_driverview1
+    4300046: antiair_tracks
+    4300048: antiair_chassi
+    4300050: btr_driverview2
+    4300052: antiair_turret
+    4300054: polySurface7
+    4300056: antiair_robot
+    4300058: aa_guns
+    4300060: btr_driverview1
+    4300062: antiair_tracks
+    4300064: logi_body
+    4300066: logi_wheel1_2
+    4300068: logi_wheel1_3
+    4300070: logi_wheel1_1
+    4300072: logi_wheel1_4
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

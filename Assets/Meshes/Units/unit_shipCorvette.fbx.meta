@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 40c4dbbb457e3fc4b8000f42b4fecb67
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: cruiser_autocannon1
+    100002: cruiser_autocannon2
+    100004: cruiser_turret_03
+    100006: missile_tubes
+    100008: missile_tubes 1
+    100010: missile_tubes 2
+    100012: missile_turret2
+    100014: missile_turret4
+    100016: missile_turret5
+    100018: polySurface16
+    100020: //RootNode
+    400000: cruiser_autocannon1
+    400002: cruiser_autocannon2
+    400004: cruiser_turret_03
+    400006: missile_tubes
+    400008: missile_tubes 1
+    400010: missile_tubes 2
+    400012: missile_turret2
+    400014: missile_turret4
+    400016: missile_turret5
+    400018: polySurface16
+    400020: //RootNode
+    2300000: cruiser_autocannon1
+    2300002: cruiser_autocannon2
+    2300004: cruiser_turret_03
+    2300006: missile_tubes
+    2300008: missile_tubes 1
+    2300010: missile_tubes 2
+    2300012: missile_turret2
+    2300014: missile_turret4
+    2300016: missile_turret5
+    2300018: polySurface16
+    2300020: //RootNode
+    3300000: cruiser_autocannon1
+    3300002: cruiser_autocannon2
+    3300004: cruiser_turret_03
+    3300006: missile_tubes
+    3300008: missile_tubes 1
+    3300010: missile_tubes 2
+    3300012: missile_turret2
+    3300014: missile_turret4
+    3300016: missile_turret5
+    3300018: polySurface16
+    3300020: //RootNode
+    4300000: unit_shipCorvette
+    4300002: polySurface16
+    4300004: missile_turret5
+    4300006: missile_tubes
+    4300008: cruiser_turret_03
+    4300010: cruiser_autocannon2
+    4300012: cruiser_autocannon1
+    4300014: missile_turret2
+    4300016: missile_tubes
+    4300018: missile_turret4
+    4300020: missile_tubes
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -113,7 +113,7 @@ partial class LoginScreen (MonoBehaviour):
 				_accountNameSecure = _accountName
 				_gameState.AccountName = _accountNameSecure
 				if true == _autoLogin:
-					_passwordCrypted = _encryption.Encrypt(_passwordPlainText,_gameState.Key)
+					_passwordCrypted = _passwordPlainText//_encryption.Encrypt(_passwordPlainText,_gameState.Key)
 					_LoginSaveLoad.SaveLogin()
 				if _accountNameSecure == "test":
 					_gameState.LocalGame = true

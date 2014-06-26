@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: 3bf2c353a89a0364386843bc34bf344e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: infantry
+    100002: infantry 1
+    100004: infantry 2
+    100006: infantry 3
+    100008: infantry 4
+    100010: infantry 5
+    100012: infantry 6
+    100014: infantry_ak
+    100016: infantry_ak 1
+    100018: infantry_ak 2
+    100020: infantry_ak 3
+    100022: infantry_ak 4
+    100024: infantry_ak 5
+    100026: infantry_ak 6
+    100028: jeep_Body
+    100030: jeep_Body 1
+    100032: jeep_Body 2
+    100034: jeep_driverview
+    100036: jeep_driverview 1
+    100038: jeep_driverview 2
+    100040: jeep_driverview1
+    100042: jeep_driverview1 1
+    100044: jeep_driverview1 2
+    100046: jeep_gun
+    100048: jeep_gun 1
+    100050: jeep_gun 2
+    100052: jeep_turret
+    100054: jeep_turret 1
+    100056: jeep_turret 2
+    100058: jeep_wheel1
+    100060: jeep_wheel1 1
+    100062: jeep_wheel1 2
+    100064: jeep_wheel2
+    100066: jeep_wheel2 1
+    100068: jeep_wheel2 2
+    100070: jeep_wheel3
+    100072: jeep_wheel3 1
+    100074: jeep_wheel3 2
+    100076: jeep_wheel4
+    100078: jeep_wheel4 1
+    100080: jeep_wheel4 2
+    100082: locator_infantry1
+    100084: locator_infantry2
+    100086: locator_infantry3
+    100088: locator_infantry4
+    100090: locator_infantry5
+    100092: locator_infantry6
+    100094: locator_infantry7
+    100096: locator_jeep1
+    100098: locator_jeep3
+    100100: locator_jeep4
+    100102: locator_logi
+    100104: logi_body
+    100106: logi_wheel1_1
+    100108: logi_wheel1_2
+    100110: logi_wheel1_3
+    100112: logi_wheel1_4
+    100114: //RootNode
+    400000: infantry
+    400002: infantry 1
+    400004: infantry 2
+    400006: infantry 3
+    400008: infantry 4
+    400010: infantry 5
+    400012: infantry 6
+    400014: infantry_ak
+    400016: infantry_ak 1
+    400018: infantry_ak 2
+    400020: infantry_ak 3
+    400022: infantry_ak 4
+    400024: infantry_ak 5
+    400026: infantry_ak 6
+    400028: jeep_Body
+    400030: jeep_Body 1
+    400032: jeep_Body 2
+    400034: jeep_driverview
+    400036: jeep_driverview 1
+    400038: jeep_driverview 2
+    400040: jeep_driverview1
+    400042: jeep_driverview1 1
+    400044: jeep_driverview1 2
+    400046: jeep_gun
+    400048: jeep_gun 1
+    400050: jeep_gun 2
+    400052: jeep_turret
+    400054: jeep_turret 1
+    400056: jeep_turret 2
+    400058: jeep_wheel1
+    400060: jeep_wheel1 1
+    400062: jeep_wheel1 2
+    400064: jeep_wheel2
+    400066: jeep_wheel2 1
+    400068: jeep_wheel2 2
+    400070: jeep_wheel3
+    400072: jeep_wheel3 1
+    400074: jeep_wheel3 2
+    400076: jeep_wheel4
+    400078: jeep_wheel4 1
+    400080: jeep_wheel4 2
+    400082: locator_infantry1
+    400084: locator_infantry2
+    400086: locator_infantry3
+    400088: locator_infantry4
+    400090: locator_infantry5
+    400092: locator_infantry6
+    400094: locator_infantry7
+    400096: locator_jeep1
+    400098: locator_jeep3
+    400100: locator_jeep4
+    400102: locator_logi
+    400104: logi_body
+    400106: logi_wheel1_1
+    400108: logi_wheel1_2
+    400110: logi_wheel1_3
+    400112: logi_wheel1_4
+    400114: //RootNode
+    2300000: infantry
+    2300002: infantry 1
+    2300004: infantry 2
+    2300006: infantry 3
+    2300008: infantry 4
+    2300010: infantry 5
+    2300012: infantry 6
+    2300014: infantry_ak
+    2300016: infantry_ak 1
+    2300018: infantry_ak 2
+    2300020: infantry_ak 3
+    2300022: infantry_ak 4
+    2300024: infantry_ak 5
+    2300026: infantry_ak 6
+    2300028: jeep_Body
+    2300030: jeep_Body 1
+    2300032: jeep_Body 2
+    2300034: jeep_driverview
+    2300036: jeep_driverview 1
+    2300038: jeep_driverview 2
+    2300040: jeep_driverview1
+    2300042: jeep_driverview1 1
+    2300044: jeep_driverview1 2
+    2300046: jeep_gun
+    2300048: jeep_gun 1
+    2300050: jeep_gun 2
+    2300052: jeep_turret
+    2300054: jeep_turret 1
+    2300056: jeep_turret 2
+    2300058: jeep_wheel1
+    2300060: jeep_wheel1 1
+    2300062: jeep_wheel1 2
+    2300064: jeep_wheel2
+    2300066: jeep_wheel2 1
+    2300068: jeep_wheel2 2
+    2300070: jeep_wheel3
+    2300072: jeep_wheel3 1
+    2300074: jeep_wheel3 2
+    2300076: jeep_wheel4
+    2300078: jeep_wheel4 1
+    2300080: jeep_wheel4 2
+    2300082: logi_body
+    2300084: logi_wheel1_1
+    2300086: logi_wheel1_2
+    2300088: logi_wheel1_3
+    2300090: logi_wheel1_4
+    3300000: infantry
+    3300002: infantry 1
+    3300004: infantry 2
+    3300006: infantry 3
+    3300008: infantry 4
+    3300010: infantry 5
+    3300012: infantry 6
+    3300014: infantry_ak
+    3300016: infantry_ak 1
+    3300018: infantry_ak 2
+    3300020: infantry_ak 3
+    3300022: infantry_ak 4
+    3300024: infantry_ak 5
+    3300026: infantry_ak 6
+    3300028: jeep_Body
+    3300030: jeep_Body 1
+    3300032: jeep_Body 2
+    3300034: jeep_driverview
+    3300036: jeep_driverview 1
+    3300038: jeep_driverview 2
+    3300040: jeep_driverview1
+    3300042: jeep_driverview1 1
+    3300044: jeep_driverview1 2
+    3300046: jeep_gun
+    3300048: jeep_gun 1
+    3300050: jeep_gun 2
+    3300052: jeep_turret
+    3300054: jeep_turret 1
+    3300056: jeep_turret 2
+    3300058: jeep_wheel1
+    3300060: jeep_wheel1 1
+    3300062: jeep_wheel1 2
+    3300064: jeep_wheel2
+    3300066: jeep_wheel2 1
+    3300068: jeep_wheel2 2
+    3300070: jeep_wheel3
+    3300072: jeep_wheel3 1
+    3300074: jeep_wheel3 2
+    3300076: jeep_wheel4
+    3300078: jeep_wheel4 1
+    3300080: jeep_wheel4 2
+    3300082: logi_body
+    3300084: logi_wheel1_1
+    3300086: logi_wheel1_2
+    3300088: logi_wheel1_3
+    3300090: logi_wheel1_4
+    4300000: logi_body
+    4300002: logi_wheel1_2
+    4300004: logi_wheel1_3
+    4300006: logi_wheel1_1
+    4300008: logi_wheel1_4
+    4300010: jeep_wheel2
+    4300012: jeep_wheel3
+    4300014: jeep_wheel1
+    4300016: jeep_wheel4
+    4300018: jeep_Body
+    4300020: jeep_driverview
+    4300022: jeep_driverview1
+    4300024: jeep_turret
+    4300026: jeep_gun
+    4300028: infantry_ak
+    4300030: infantry
+    4300032: infantry_ak
+    4300034: infantry
+    4300036: infantry_ak
+    4300038: infantry
+    4300040: jeep_wheel2
+    4300042: jeep_wheel3
+    4300044: jeep_wheel1
+    4300046: jeep_wheel4
+    4300048: jeep_Body
+    4300050: jeep_driverview
+    4300052: jeep_driverview1
+    4300054: jeep_turret
+    4300056: jeep_gun
+    4300058: infantry_ak
+    4300060: infantry
+    4300062: infantry_ak
+    4300064: infantry
+    4300066: jeep_wheel2
+    4300068: jeep_wheel3
+    4300070: jeep_wheel1
+    4300072: jeep_wheel4
+    4300074: jeep_Body
+    4300076: jeep_driverview
+    4300078: jeep_driverview1
+    4300080: jeep_turret
+    4300082: jeep_gun
+    4300084: infantry_ak
+    4300086: infantry
+    4300088: infantry_ak
+    4300090: infantry
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

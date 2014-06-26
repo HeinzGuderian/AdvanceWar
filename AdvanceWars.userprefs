@@ -1,6 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo">
     <Files>
       <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="1" Column="1" />
       <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="1" Column="1" />
@@ -9,10 +9,13 @@
       <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="1" Column="1" />
       <File FileName="Assets\ObjectDataDimension\DataScript.boo" Line="1" Column="1" />
       <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="30" Column="2" />
-      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="17" Column="2" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="66" Column="47" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="71" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" Line="14" Column="14" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\GameStatePostWEB.boo" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo" Line="124" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,15 +24,14 @@
             <Node name="CoreTechnicalSystemsDimension" expanded="True">
               <Node name="GameState" expanded="True" />
               <Node name="GUI" expanded="True">
-                <Node name="GuiScript.boo" selected="True" />
+                <Node name="LoginScreen.boo" selected="True" />
+              </Node>
+              <Node name="SaveLoadMultiplayer" expanded="True">
+                <Node name="Web" expanded="True" />
               </Node>
             </Node>
-          </Node>
-          <Node name="Assembly-CSharp-firstpass" expanded="True">
-            <Node name="Standard Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Camera Scripts" expanded="True" />
-              </Node>
+            <Node name="ObjectDataDimension" expanded="True">
+              <Node name="Terrain" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -59,6 +61,8 @@
       <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="162" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="173" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="209" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="126" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="223" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

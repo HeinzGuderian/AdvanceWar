@@ -1,0 +1,8 @@
+1.
+Stridsvagnar rör sig ryckigt.
+2.
+Lång tid ladda karta.
+3. 
+Lång tid att hitta mål med artilleri. Fixat
+4.
+Justera scrollen till lite snabbare

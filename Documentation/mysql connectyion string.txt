@@ -1,0 +1,3 @@
+mysql -h localhost -u myname -pmypass mydb
+
+mysql --host=f21367ab-17a8-40b0-8751-a2c50113638b.mysql.sequelizer.com --user=iucljobwefurvink --password=PhR3ghFoqu2EtAzcoMTanSSy45w4B2phkzPP22ZmrZkaPFHSVVBnJFm5xs8jSKUx dbf21367ab17a840b08751a2c50113638b 

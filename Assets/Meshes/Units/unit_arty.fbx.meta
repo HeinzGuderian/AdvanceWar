@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: f0bb780c1fcee014ea2de818a6e421d3
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arty_chassi
+    100002: arty_chassi 1
+    100004: arty_chassi 2
+    100006: arty_chassi 3
+    100008: arty_gun1
+    100010: arty_gun1 1
+    100012: arty_gun1 2
+    100014: arty_gun1 3
+    100016: arty_gun2
+    100018: arty_gun2 1
+    100020: arty_gun2 2
+    100022: arty_gun2 3
+    100024: arty_gun3
+    100026: arty_gun3 1
+    100028: arty_gun3 2
+    100030: arty_gun3 3
+    100032: arty_hatch
+    100034: arty_hatch 1
+    100036: arty_hatch 2
+    100038: arty_hatch 3
+    100040: arty_hatch1
+    100042: arty_hatch1 1
+    100044: arty_hatch1 2
+    100046: arty_hatch1 3
+    100048: arty_tracks
+    100050: arty_tracks 1
+    100052: arty_tracks 2
+    100054: arty_tracks 3
+    100056: arty_turret
+    100058: arty_turret 1
+    100060: arty_turret 2
+    100062: arty_turret 3
+    100064: locator_arty1
+    100066: locator_arty2
+    100068: locator_arty3
+    100070: locator_arty4
+    100072: locator_rocketarty1
+    100074: rocketarty_chassi
+    100076: rocketarty_driverview
+    100078: rocketarty_pods
+    100080: rocketarty_tracks
+    100082: rocketarty_turret
+    100084: //RootNode
+    400000: arty_chassi
+    400002: arty_chassi 1
+    400004: arty_chassi 2
+    400006: arty_chassi 3
+    400008: arty_gun1
+    400010: arty_gun1 1
+    400012: arty_gun1 2
+    400014: arty_gun1 3
+    400016: arty_gun2
+    400018: arty_gun2 1
+    400020: arty_gun2 2
+    400022: arty_gun2 3
+    400024: arty_gun3
+    400026: arty_gun3 1
+    400028: arty_gun3 2
+    400030: arty_gun3 3
+    400032: arty_hatch
+    400034: arty_hatch 1
+    400036: arty_hatch 2
+    400038: arty_hatch 3
+    400040: arty_hatch1
+    400042: arty_hatch1 1
+    400044: arty_hatch1 2
+    400046: arty_hatch1 3
+    400048: arty_tracks
+    400050: arty_tracks 1
+    400052: arty_tracks 2
+    400054: arty_tracks 3
+    400056: arty_turret
+    400058: arty_turret 1
+    400060: arty_turret 2
+    400062: arty_turret 3
+    400064: locator_arty1
+    400066: locator_arty2
+    400068: locator_arty3
+    400070: locator_arty4
+    400072: locator_rocketarty1
+    400074: rocketarty_chassi
+    400076: rocketarty_driverview
+    400078: rocketarty_pods
+    400080: rocketarty_tracks
+    400082: rocketarty_turret
+    400084: //RootNode
+    2300000: arty_chassi
+    2300002: arty_chassi 1
+    2300004: arty_chassi 2
+    2300006: arty_chassi 3
+    2300008: arty_gun1
+    2300010: arty_gun1 1
+    2300012: arty_gun1 2
+    2300014: arty_gun1 3
+    2300016: arty_gun2
+    2300018: arty_gun2 1
+    2300020: arty_gun2 2
+    2300022: arty_gun2 3
+    2300024: arty_gun3
+    2300026: arty_gun3 1
+    2300028: arty_gun3 2
+    2300030: arty_gun3 3
+    2300032: arty_hatch
+    2300034: arty_hatch 1
+    2300036: arty_hatch 2
+    2300038: arty_hatch 3
+    2300040: arty_hatch1
+    2300042: arty_hatch1 1
+    2300044: arty_hatch1 2
+    2300046: arty_hatch1 3
+    2300048: arty_tracks
+    2300050: arty_tracks 1
+    2300052: arty_tracks 2
+    2300054: arty_tracks 3
+    2300056: arty_turret
+    2300058: arty_turret 1
+    2300060: arty_turret 2
+    2300062: arty_turret 3
+    2300064: rocketarty_chassi
+    2300066: rocketarty_driverview
+    2300068: rocketarty_pods
+    2300070: rocketarty_tracks
+    2300072: rocketarty_turret
+    3300000: arty_chassi
+    3300002: arty_chassi 1
+    3300004: arty_chassi 2
+    3300006: arty_chassi 3
+    3300008: arty_gun1
+    3300010: arty_gun1 1
+    3300012: arty_gun1 2
+    3300014: arty_gun1 3
+    3300016: arty_gun2
+    3300018: arty_gun2 1
+    3300020: arty_gun2 2
+    3300022: arty_gun2 3
+    3300024: arty_gun3
+    3300026: arty_gun3 1
+    3300028: arty_gun3 2
+    3300030: arty_gun3 3
+    3300032: arty_hatch
+    3300034: arty_hatch 1
+    3300036: arty_hatch 2
+    3300038: arty_hatch 3
+    3300040: arty_hatch1
+    3300042: arty_hatch1 1
+    3300044: arty_hatch1 2
+    3300046: arty_hatch1 3
+    3300048: arty_tracks
+    3300050: arty_tracks 1
+    3300052: arty_tracks 2
+    3300054: arty_tracks 3
+    3300056: arty_turret
+    3300058: arty_turret 1
+    3300060: arty_turret 2
+    3300062: arty_turret 3
+    3300064: rocketarty_chassi
+    3300066: rocketarty_driverview
+    3300068: rocketarty_pods
+    3300070: rocketarty_tracks
+    3300072: rocketarty_turret
+    4300000: arty_chassi
+    4300002: arty_hatch1
+    4300004: arty_hatch
+    4300006: arty_tracks
+    4300008: arty_turret
+    4300010: arty_gun1
+    4300012: arty_gun2
+    4300014: arty_gun3
+    4300016: arty_chassi
+    4300018: arty_hatch1
+    4300020: arty_hatch
+    4300022: arty_tracks
+    4300024: arty_turret
+    4300026: arty_gun1
+    4300028: arty_gun2
+    4300030: arty_gun3
+    4300032: arty_chassi
+    4300034: arty_hatch1
+    4300036: arty_hatch
+    4300038: arty_tracks
+    4300040: arty_turret
+    4300042: arty_gun1
+    4300044: arty_gun2
+    4300046: arty_gun3
+    4300048: arty_chassi
+    4300050: arty_hatch1
+    4300052: arty_hatch
+    4300054: arty_tracks
+    4300056: arty_turret
+    4300058: arty_gun1
+    4300060: arty_gun2
+    4300062: arty_gun3
+    4300064: rocketarty_chassi
+    4300066: rocketarty_driverview
+    4300068: rocketarty_tracks
+    4300070: rocketarty_turret
+    4300072: rocketarty_pods
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

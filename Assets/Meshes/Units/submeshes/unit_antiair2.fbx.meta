@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: c5b618690d8f7eb4c971f6285becb5c6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: aa_guns
+    100002: antiair_chassi
+    100004: antiair_gun
+    100006: antiair_robot
+    100008: antiair_robot1
+    100010: antiair_tracks
+    100012: antiair_turret
+    100014: btr_driverview1
+    100016: btr_driverview2
+    100018: polySurface7
+    100020: //RootNode
+    400000: aa_guns
+    400002: antiair_chassi
+    400004: antiair_gun
+    400006: antiair_robot
+    400008: antiair_robot1
+    400010: antiair_tracks
+    400012: antiair_turret
+    400014: btr_driverview1
+    400016: btr_driverview2
+    400018: polySurface7
+    400020: //RootNode
+    2300000: aa_guns
+    2300002: antiair_chassi
+    2300004: antiair_robot
+    2300006: antiair_robot1
+    2300008: antiair_tracks
+    2300010: antiair_turret
+    2300012: btr_driverview1
+    2300014: btr_driverview2
+    2300016: polySurface7
+    3300000: aa_guns
+    3300002: antiair_chassi
+    3300004: antiair_robot
+    3300006: antiair_robot1
+    3300008: antiair_tracks
+    3300010: antiair_turret
+    3300012: btr_driverview1
+    3300014: btr_driverview2
+    3300016: polySurface7
+    4300000: antiair_chassi
+    4300002: btr_driverview2
+    4300004: antiair_turret
+    4300006: polySurface7
+    4300008: antiair_robot
+    4300010: aa_guns
+    4300012: antiair_robot1
+    4300014: btr_driverview1
+    4300016: antiair_tracks
+    7400002: tank_vertcolortest2
+    7400004: idle
+    7400006: attack
+    7400008: altattack
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      firstFrame: 41
+      lastFrame: 48
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: 
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: altattack
+      takeName: 
+      firstFrame: 16
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,17 @@
+﻿2013-10-26
+Mobile Forces intern kritik
+
+1. Göra något åt inläsning av karta, om möjligt. Mindre kartor?
+2. Units rör sig i små stötar, stannar på varje ruta. Det är okej, men pauserna på varje ruta kan var amindre.
+0,7-0,4
+3. Units vid rörelse "driftar" fram, alltså ändrar rotation i Z axeln för tidigt. Föst bör förflyttning ske, därefter sväng.
+fixed
+4. När man gjort "end turn" så bör "end turn" knappen försvinna och ändras till "opponents turn plz wait"-ruta. Grafik på gång.
+
+5. Listan av current games kan sparas lokalt, och uppdateras automatiskt varje minut(eller var tionde)
+
+Grafik att göra framöver:
+1.Skillnad mellan KNAPPAR och INFORUTOR
+2.Units behöver snyggas till och sluta vara rosa.
+3.Units animationer bör ses över: fel animation spelar ibland. (Idle istället för attack)
+4.Terräng rework: göra befintlig terräng "osynlig" tills man klickar på den, ändra så det bara är vanliga rutor. Gör "snyggare" terräng undertill med hjälp av Unity Terrain för att få blending textures etc.

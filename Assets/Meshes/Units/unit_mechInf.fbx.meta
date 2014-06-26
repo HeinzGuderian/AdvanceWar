@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: c8256cb24d218994e8289bb1367b7021
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ifv_cannon
+    100002: ifv_cannon 1
+    100004: ifv_cannon 2
+    100006: ifv_chassis
+    100008: ifv_chassis 1
+    100010: ifv_chassis 2
+    100012: ifv_track
+    100014: ifv_track 1
+    100016: ifv_track 2
+    100018: ifv_turret
+    100020: ifv_turret 1
+    100022: ifv_turret 2
+    100024: infantry
+    100026: infantry 1
+    100028: infantry 2
+    100030: infantry 3
+    100032: infantry 4
+    100034: infantry 5
+    100036: infantry 6
+    100038: infantry 7
+    100040: infantry_ak
+    100042: infantry_ak 1
+    100044: infantry_ak 2
+    100046: infantry_ak 3
+    100048: infantry_ak 4
+    100050: infantry_ak 5
+    100052: infantry_ak 6
+    100054: infantry_ak 7
+    100056: locator_ifv2
+    100058: locator_ifv3
+    100060: locator_ifv4
+    100062: locator_infantry10
+    100064: locator_infantry11
+    100066: locator_infantry12
+    100068: locator_infantry13
+    100070: locator_infantry14
+    100072: locator_infantry15
+    100074: locator_infantry8
+    100076: locator_infantry9
+    100078: pCylinder1
+    100080: pCylinder1 1
+    100082: pCylinder1 2
+    100084: pCylinder2
+    100086: pCylinder2 1
+    100088: pCylinder2 2
+    100090: pCylinder3
+    100092: pCylinder3 1
+    100094: pCylinder3 2
+    100096: //RootNode
+    400000: ifv_cannon
+    400002: ifv_cannon 1
+    400004: ifv_cannon 2
+    400006: ifv_chassis
+    400008: ifv_chassis 1
+    400010: ifv_chassis 2
+    400012: ifv_track
+    400014: ifv_track 1
+    400016: ifv_track 2
+    400018: ifv_turret
+    400020: ifv_turret 1
+    400022: ifv_turret 2
+    400024: infantry
+    400026: infantry 1
+    400028: infantry 2
+    400030: infantry 3
+    400032: infantry 4
+    400034: infantry 5
+    400036: infantry 6
+    400038: infantry 7
+    400040: infantry_ak
+    400042: infantry_ak 1
+    400044: infantry_ak 2
+    400046: infantry_ak 3
+    400048: infantry_ak 4
+    400050: infantry_ak 5
+    400052: infantry_ak 6
+    400054: infantry_ak 7
+    400056: locator_ifv2
+    400058: locator_ifv3
+    400060: locator_ifv4
+    400062: locator_infantry10
+    400064: locator_infantry11
+    400066: locator_infantry12
+    400068: locator_infantry13
+    400070: locator_infantry14
+    400072: locator_infantry15
+    400074: locator_infantry8
+    400076: locator_infantry9
+    400078: pCylinder1
+    400080: pCylinder1 1
+    400082: pCylinder1 2
+    400084: pCylinder2
+    400086: pCylinder2 1
+    400088: pCylinder2 2
+    400090: pCylinder3
+    400092: pCylinder3 1
+    400094: pCylinder3 2
+    400096: //RootNode
+    2300000: ifv_cannon
+    2300002: ifv_cannon 1
+    2300004: ifv_cannon 2
+    2300006: ifv_chassis
+    2300008: ifv_chassis 1
+    2300010: ifv_chassis 2
+    2300012: ifv_track
+    2300014: ifv_track 1
+    2300016: ifv_track 2
+    2300018: ifv_turret
+    2300020: ifv_turret 1
+    2300022: ifv_turret 2
+    2300024: infantry
+    2300026: infantry 1
+    2300028: infantry 2
+    2300030: infantry 3
+    2300032: infantry 4
+    2300034: infantry 5
+    2300036: infantry 6
+    2300038: infantry 7
+    2300040: infantry_ak
+    2300042: infantry_ak 1
+    2300044: infantry_ak 2
+    2300046: infantry_ak 3
+    2300048: infantry_ak 4
+    2300050: infantry_ak 5
+    2300052: infantry_ak 6
+    2300054: infantry_ak 7
+    2300056: pCylinder1
+    2300058: pCylinder1 1
+    2300060: pCylinder1 2
+    2300062: pCylinder2
+    2300064: pCylinder2 1
+    2300066: pCylinder2 2
+    2300068: pCylinder3
+    2300070: pCylinder3 1
+    2300072: pCylinder3 2
+    3300000: ifv_cannon
+    3300002: ifv_cannon 1
+    3300004: ifv_cannon 2
+    3300006: ifv_chassis
+    3300008: ifv_chassis 1
+    3300010: ifv_chassis 2
+    3300012: ifv_track
+    3300014: ifv_track 1
+    3300016: ifv_track 2
+    3300018: ifv_turret
+    3300020: ifv_turret 1
+    3300022: ifv_turret 2
+    3300024: infantry
+    3300026: infantry 1
+    3300028: infantry 2
+    3300030: infantry 3
+    3300032: infantry 4
+    3300034: infantry 5
+    3300036: infantry 6
+    3300038: infantry 7
+    3300040: infantry_ak
+    3300042: infantry_ak 1
+    3300044: infantry_ak 2
+    3300046: infantry_ak 3
+    3300048: infantry_ak 4
+    3300050: infantry_ak 5
+    3300052: infantry_ak 6
+    3300054: infantry_ak 7
+    3300056: pCylinder1
+    3300058: pCylinder1 1
+    3300060: pCylinder1 2
+    3300062: pCylinder2
+    3300064: pCylinder2 1
+    3300066: pCylinder2 2
+    3300068: pCylinder3
+    3300070: pCylinder3 1
+    3300072: pCylinder3 2
+    4300000: ifv_turret
+    4300002: pCylinder1
+    4300004: ifv_cannon
+    4300006: ifv_chassis
+    4300008: pCylinder3
+    4300010: pCylinder2
+    4300012: ifv_track
+    4300014: ifv_turret
+    4300016: pCylinder1
+    4300018: ifv_cannon
+    4300020: ifv_chassis
+    4300022: pCylinder3
+    4300024: pCylinder2
+    4300026: ifv_track
+    4300028: ifv_turret
+    4300030: pCylinder1
+    4300032: ifv_cannon
+    4300034: ifv_chassis
+    4300036: pCylinder3
+    4300038: pCylinder2
+    4300040: ifv_track
+    4300042: infantry_ak
+    4300044: infantry
+    4300046: infantry_ak
+    4300048: infantry
+    4300050: infantry_ak
+    4300052: infantry
+    4300054: infantry_ak
+    4300056: infantry
+    4300058: infantry_ak
+    4300060: infantry
+    4300062: infantry_ak
+    4300064: infantry
+    4300066: infantry_ak
+    4300068: infantry
+    4300070: infantry_ak
+    4300072: infantry
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,7 @@
+c:
+cd "C:\Users\Sirex\Documents\Visual Studio 2010\Projects\MvcApplication2"
+git status
+git add .
+git commit -a
+git push appharbor master
+DE43214321;

@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 9bfab676e2afbaf42a8f91e308bcb1e0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: jeep_Body
+    100002: jeep_driverview
+    100004: jeep_driverview1
+    100006: jeep_gun
+    100008: jeep_turret
+    100010: jeep_wheel1
+    100012: jeep_wheel2
+    100014: jeep_wheel3
+    100016: jeep_wheel4
+    100018: locator_jeep5
+    100020: locator_logi2
+    100022: locator_logi3
+    100024: locator_logi4
+    100026: logi_body
+    100028: logi_body 1
+    100030: logi_body 2
+    100032: logi_wheel1_1
+    100034: logi_wheel1_1 1
+    100036: logi_wheel1_1 2
+    100038: logi_wheel1_2
+    100040: logi_wheel1_2 1
+    100042: logi_wheel1_2 2
+    100044: logi_wheel1_3
+    100046: logi_wheel1_3 1
+    100048: logi_wheel1_3 2
+    100050: logi_wheel1_4
+    100052: logi_wheel1_4 1
+    100054: logi_wheel1_4 2
+    100056: //RootNode
+    400000: jeep_Body
+    400002: jeep_driverview
+    400004: jeep_driverview1
+    400006: jeep_gun
+    400008: jeep_turret
+    400010: jeep_wheel1
+    400012: jeep_wheel2
+    400014: jeep_wheel3
+    400016: jeep_wheel4
+    400018: locator_jeep5
+    400020: locator_logi2
+    400022: locator_logi3
+    400024: locator_logi4
+    400026: logi_body
+    400028: logi_body 1
+    400030: logi_body 2
+    400032: logi_wheel1_1
+    400034: logi_wheel1_1 1
+    400036: logi_wheel1_1 2
+    400038: logi_wheel1_2
+    400040: logi_wheel1_2 1
+    400042: logi_wheel1_2 2
+    400044: logi_wheel1_3
+    400046: logi_wheel1_3 1
+    400048: logi_wheel1_3 2
+    400050: logi_wheel1_4
+    400052: logi_wheel1_4 1
+    400054: logi_wheel1_4 2
+    400056: //RootNode
+    2300000: jeep_Body
+    2300002: jeep_driverview
+    2300004: jeep_driverview1
+    2300006: jeep_gun
+    2300008: jeep_turret
+    2300010: jeep_wheel1
+    2300012: jeep_wheel2
+    2300014: jeep_wheel3
+    2300016: jeep_wheel4
+    2300018: logi_body
+    2300020: logi_body 1
+    2300022: logi_body 2
+    2300024: logi_wheel1_1
+    2300026: logi_wheel1_1 1
+    2300028: logi_wheel1_1 2
+    2300030: logi_wheel1_2
+    2300032: logi_wheel1_2 1
+    2300034: logi_wheel1_2 2
+    2300036: logi_wheel1_3
+    2300038: logi_wheel1_3 1
+    2300040: logi_wheel1_3 2
+    2300042: logi_wheel1_4
+    2300044: logi_wheel1_4 1
+    2300046: logi_wheel1_4 2
+    3300000: jeep_Body
+    3300002: jeep_driverview
+    3300004: jeep_driverview1
+    3300006: jeep_gun
+    3300008: jeep_turret
+    3300010: jeep_wheel1
+    3300012: jeep_wheel2
+    3300014: jeep_wheel3
+    3300016: jeep_wheel4
+    3300018: logi_body
+    3300020: logi_body 1
+    3300022: logi_body 2
+    3300024: logi_wheel1_1
+    3300026: logi_wheel1_1 1
+    3300028: logi_wheel1_1 2
+    3300030: logi_wheel1_2
+    3300032: logi_wheel1_2 1
+    3300034: logi_wheel1_2 2
+    3300036: logi_wheel1_3
+    3300038: logi_wheel1_3 1
+    3300040: logi_wheel1_3 2
+    3300042: logi_wheel1_4
+    3300044: logi_wheel1_4 1
+    3300046: logi_wheel1_4 2
+    4300000: logi_body
+    4300002: logi_wheel1_2
+    4300004: logi_wheel1_3
+    4300006: logi_wheel1_1
+    4300008: logi_wheel1_4
+    4300010: logi_body
+    4300012: logi_wheel1_2
+    4300014: logi_wheel1_3
+    4300016: logi_wheel1_1
+    4300018: logi_wheel1_4
+    4300020: logi_body
+    4300022: logi_wheel1_2
+    4300024: logi_wheel1_3
+    4300026: logi_wheel1_1
+    4300028: logi_wheel1_4
+    4300030: jeep_wheel2
+    4300032: jeep_wheel3
+    4300034: jeep_wheel1
+    4300036: jeep_wheel4
+    4300038: jeep_Body
+    4300040: jeep_driverview
+    4300042: jeep_driverview1
+    4300044: jeep_turret
+    4300046: jeep_gun
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
