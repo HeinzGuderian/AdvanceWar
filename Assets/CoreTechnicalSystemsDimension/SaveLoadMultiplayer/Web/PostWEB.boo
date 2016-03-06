@@ -6,6 +6,7 @@ class PostWEB (MonoBehaviour, ISaveLoadGame):
 	//"http://54.217.213.92/game.com/index.php"//"http://localhost/game/index.php"
 	//"http://mobilewebservicewars.apphb.com:80/"
 	//"http://localhost:49341/Index" 
+	//final STANDARD_URL as string = "http://localhost/game/index.php"
 	final STANDARD_URL as string = "http://mobilewebservicewars.apphb.com:80/"//"http://localhost/game/index.php" //"http://mobilewebservicewars.apphb.com:80/" //
 	//final STANDARD_URL as string = "http://54.217.213.92/game.com/index.php" 
 	

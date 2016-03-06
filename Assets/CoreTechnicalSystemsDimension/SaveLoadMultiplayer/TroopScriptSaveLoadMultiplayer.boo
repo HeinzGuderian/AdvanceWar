@@ -96,6 +96,7 @@ partial class TroopClass (INormalForm):
 		cd = normalStruct.metaInfo["Team"] as string
 		dc = TeamScript.StringToPlayerNumber( normalStruct.metaInfo["Team"] as string )
 		*/
+		print(normalStruct.type as string);
 		newUnit = FactoryEconomy.CreateUnit(resourcesLoadTable[Type.GetType(normalStruct.type as string)], 
 			Vector3(normalStruct.metaInfo["PositionX"],normalStruct.metaInfo["PositionY"],normalStruct.metaInfo["PositionZ"]), 
 			TeamScript.StringToPlayerNumber( normalStruct.metaInfo["Team"] as string ))

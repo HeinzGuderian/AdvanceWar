@@ -40,10 +40,10 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 		water
 		
 	def Highlight():
-		renderer.material = materials[1]
+		GetComponent[of Renderer]().material = materials[1]
 		
 	def DeHighlight():
-		renderer.material = materials[0]
+		GetComponent[of Renderer]().material = materials[0]
 		
 		/*
 	def OnMouseDown():
@@ -329,7 +329,7 @@ abstract class TerrainScript(MonoBehaviour, IHighlight, ITerrain):
 		2.Dequeue a node and examine it 
 		If the element sought is found in this node, quit the search and return a result.
 		Otherwise enqueue any successors (the direct child nodes) that have not yet been discovered.
-		3.If the queue is empty, every node on the graph has been examined – quit the search and return "not found".
+		3.If the queue is empty, every node on the graph has been examined â€“ quit the search and return "not found".
 		4.If the queue is not empty, repeat from Step 2.
 		*/			
 	static def RecursiveTerrainSearchScript(startPoint as TerrainScript, ourTeam as TeamScript.PlayerNumberEnum, endCondition as callable, continueCode as callable, passedData as object, ref searchMatchedList as List, searchFunction1 as callable,searchedSet as List ) as void:

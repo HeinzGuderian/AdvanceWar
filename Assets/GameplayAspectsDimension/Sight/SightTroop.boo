@@ -10,6 +10,16 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 	_teamScript as TeamScript
 	_layer as LayerMask = (-1)
 	
+	public final SightTerrainTable = {
+		MechTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		ArmoredTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		ArtyTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		EngyTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		AntiairTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		MotoTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		LogiTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		CommTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 }
+	}
 	
 	def Awake ():
 		_library = (GameObject.Find('GameRules').GetComponent[of LibraryScript]() as LibraryScript)	
@@ -77,6 +87,7 @@ class SightTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		if StealthValue <= 0:
 			//_currentPlayerGUI.PrintToScreen("Error: In SightTroop, StealthValue was under 0!")
 			StealthValue = 1	
+		
 		return StealthValue
 		
 	// Formula function that returns an adjusted detection value based on current state 

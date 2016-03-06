@@ -1,0 +1,7 @@
+e:
+cd "E:\Project\AdvanceWars"
+git status
+git add .
+git commit -a
+git push appharbor master
+DE43214321;

@@ -24,8 +24,7 @@ class PlayerEconomy (MonoBehaviour, IGameState):
 	_playerScript as PlayerScript = null
 	_library as LibraryScript = null
 	
-	_turnIncome as int = 100
-	OilfieldIncome as int = 100
+	OilfieldIncome as int = 20
 	
 	TurnIncome as int:
 		get:

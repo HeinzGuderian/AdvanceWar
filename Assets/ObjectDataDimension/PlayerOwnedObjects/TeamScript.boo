@@ -14,11 +14,11 @@ class TeamScript (MonoBehaviour, ITeam):
 	virtual def SetTeam(playerNumber as PlayerNumberEnum):
 		_playerNumber = playerNumber
 		if playerNumber == PlayerNumberEnum.player1:
-			renderer.material = materials[0]
+			GetComponent[of Renderer]().material = materials[0]
 			
 			RecursiveSetRendererMaterial(gameObject, materials[0])
 		elif playerNumber == PlayerNumberEnum.player2:
-			renderer.material = materials[1]
+			GetComponent[of Renderer]().material = materials[1]
 			RecursiveSetRendererMaterial(gameObject, materials[1])
 		else:
 			pass
@@ -36,7 +36,7 @@ class TeamScript (MonoBehaviour, ITeam):
 			start = false
 		
 	def DeHighlight():
-		renderer.material = materials[0]
+		GetComponent[of Renderer]().material = materials[0]
 	
 	public enum PlayerNumberEnum:
 		player1 = 0

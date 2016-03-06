@@ -68,20 +68,20 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		screenDone
 	
 	// Table for assigning terrain modfyers for different terrain types 
-	public final MovementTypeTerrainTable = {
-		MechTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		ArmoredTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		ArtyTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		EngyTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		AntiairTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		MotoTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		LogiTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 } ,
-		CommTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2, TerrainScript.TerrainTypeEnum.hill: 12, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 1.3, TerrainScript.TerrainTypeEnum.highDensityBuildings: 1.6 }
+	public final DefenceTypeTerrainTable = {
+		MechTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.6 } ,
+		ArmoredTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.7, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.8 } ,
+		ArtyTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		EngyTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		AntiairTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		MotoTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		LogiTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 } ,
+		CommTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8, TerrainScript.TerrainTypeEnum.hill: 0.7, TerrainScript.TerrainTypeEnum.water: 0, TerrainScript.TerrainTypeEnum.lowDensityBuildings: 0.6, TerrainScript.TerrainTypeEnum.highDensityBuildings: 0.4 }
 	}
 	
 	/*{
-		MechTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2} ,
-		LogiTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 1.2}
+		MechTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8} ,
+		LogiTroop as System.Type: {TerrainScript.TerrainTypeEnum.plain: 1.0, TerrainScript.TerrainTypeEnum.forrest: 0.8}
 	}*/
 	
 		 
@@ -181,8 +181,9 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		if b.Count > 0:
 			c = b[0]
 		for troop as TroopClass in [TroopClass.FindTroopScript(troop) for troop as GameObject in troopGameObjectList if troop.GetInstanceID() != gameObject.GetInstanceID()]:
-			a = troop
 			// Can we attack?
+			if troop is null: 
+				continue
 			if troop.ActionPoints == 0:
 				// If not exit with positive value.
 				continue  
@@ -272,7 +273,6 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		yield StartCoroutine(InitiateCombat(targetGO, false))
 			
 	def InitiateCombat(targetGO as GameObject, reverseDisplay as bool) as System.Collections.IEnumerator:
-		// Need to select ourself, seance we cicked on the target and then the target became selected
 		AllowedToAttackEnum = AllowedToAttack(targetGO)
 		if(AllowedToAttackEnum != CombatAllowedErrorCodes.OKAY):
 			_currentPlayerGUI.PrintToScreen(CombatErrorTable[AllowedToAttackEnum])
@@ -285,6 +285,7 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 				yield StartCoroutine(Combat(targetGO)	)
 		
 	def Combat(targetGO as GameObject) as System.Collections.IEnumerator:
+		// Need to select ourself, seance we cicked on the target and then the target became selected
 		_testInfantryData.SetSelected()
 		MoveTestTroop.ChangeFacingTowards(gameObject, targetGO)
 		MoveTestTroop.ChangeFacingTowards(targetGO, gameObject)
@@ -326,9 +327,9 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		// add modifier toghter to a joint damage modify value
 		random as System.Random = System.Random(System.DateTime.Now.Millisecond)
 		randNumber1 as double = random.Next(7,12 ) * 0.1
-		_finalTargetDamage = damagedMadeToTarget * attackerModifier(_testInfantryTroop) * thisUnitHitModifier * randNumber1
+		_finalTargetDamage = damagedMadeToTarget * terrainCombatModifier(_targetTroop) * thisUnitHitModifier * randNumber1
 		randNumber2 as double = random.Next(7,12 ) * 0.1
-		_finalSelfTarget = damagedMadeToSelf * defenderModifier(_targetTroop) * targetUnitHitModifier * randNumber2
+		_finalSelfTarget = damagedMadeToSelf * terrainCombatModifier(_testInfantryTroop) * targetUnitHitModifier * randNumber2
 		
 
 		/// Set new health
@@ -386,37 +387,39 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 			_resultScreen = resultScreens[2]
 			
 		// Set text
-		_leftRowBoxTexts[0] = "Enemy Initiative Bonus       : "+initiativeDiffFriendly.ToString()
-		_leftRowBoxTexts[1] = "Friendly Initiative Bonus      : "+initiativeDiffEnemy.ToString()
+		_leftRowBoxTexts[0] = "Enemy Initiative Bonus       : "+initiativeDiffEnemy.ToString()
+		_leftRowBoxTexts[1] = "Friendly Initiative Bonus      : "+initiativeDiffFriendly.ToString()
 		_leftRowBoxTexts[2] = "Damaged done by us         : "+_finalTargetDamage.ToString()
 		_leftRowBoxTexts[3] = "Damaged done by enemy   : "+_finalSelfTarget.ToString()
 
+		print(_testInfantryTroop.ActionPoints)
+		print(_targetTroop.ActionPoints)
 		_testInfantryTroop.CombatInitiative = initiativeDiffFriendly
 		_targetTroop.CombatInitiative = initiativeDiffEnemy
 		_enemyCombatResultInitiative = initiativeDiffEnemy
-		
+		_testInfantryTroop.ActionPoints = _testInfantryTroop.ActionPoints -_attackCost
+		_targetTroop.ActionPoints =  _targetTroop.ActionPoints - _attackCost
 		_displayResult = true
 		// Display result screen
 		// Display Text
 		SetAnimation(gameObject,"idle")
 		SetAnimation(targetGO,"idle")
-		
-		_testInfantryTroop.ActionPoints -= _attackCost
-		_targetTroop.ActionPoints -= _attackCost
 		yield
 			
 	def applyAndHandleDamage():
 		// Set and handle new health for the two units
-		if(_targetTroop.Health-_finalTargetDamage <= 0):
+		if _targetTroop.Health < 1:
 			Destroy(_targetTroop.gameObject)
 			
-		if(_testInfantryTroop.Health-_finalSelfTarget <= 0):
+		if _testInfantryTroop.Health < 1:
 			Destroy(gameObject)
+		return
 		
 	/**  Calculate the amount of damage done to the target.
 	Pure function, does not alter values in the defending object
 	*/
 	def attackDamage(attacking as TroopClass, defending as TroopClass) as int:
+		combatMagnitudeModifier = 10
 		softDamageResult as int = 0
 		hardDamageResult as int = 0
 		distanceBetweenCombatants = _library.CalculateGridRange(attacking.gameObject, defending.gameObject)
@@ -426,16 +429,16 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 			
 			if distanceBetweenCombatants <= weaponSystem.Range:
 				// Check that the damage after defence value consideration is not below minimum damage
-				softDamage = (weaponSystem.SoftDamage*(attacking.Health/attacking.MaxHealth) - defending.SoftDefence)
+				softDamage = (weaponSystem.SoftDamage*((attacking.Health cast double)/(attacking.MaxHealth cast double)) - defending.SoftDefence)
 				if softDamage < weaponSystem.SoftMinimumDamage:
-					softDamage = weaponSystem.SoftMinimumDamage
-				softDamageResult += softDamage
+					softDamage = weaponSystem.SoftMinimumDamage*((attacking.Health cast double)/(attacking.MaxHealth cast double))
+				softDamageResult += softDamage * combatMagnitudeModifier * defending.softness
 				
 				// Check that the damage after defence value consideration is not below minimum damage
-				hardDamage = (weaponSystem.HardDamage*(attacking.Health/attacking.MaxHealth) - defending.HardDefence)
+				hardDamage = (weaponSystem.HardDamage*((attacking.Health cast double)/(attacking.MaxHealth cast double)) - defending.HardDefence)
 				if hardDamage < weaponSystem.HardMinimumDamage:
-					hardDamage = weaponSystem.HardMinimumDamage
-				hardDamageResult += hardDamage
+					hardDamage = weaponSystem.HardMinimumDamage*((attacking.Health cast double)/(attacking.MaxHealth cast double))
+				hardDamageResult += hardDamage * combatMagnitudeModifier
 				
 		
 		//_currentPlayerGUI.PrintToScreen()
@@ -444,12 +447,6 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		return totalDamage
 		
 		//return 1
-		
-	def attackerModifier(attacker as TroopClass) as double:
-		return terrainCombatModifier(attacker, TerrainScript.TerrainTypeEnum.plain)
-		
-	def defenderModifier(defender as TroopClass) as double:
-		return terrainCombatModifier(defender, TerrainScript.TerrainTypeEnum.plain)
 
 	// TODO Not finsihed not used yet
 	def hitCalculation(attacker as TroopClass, defender as TroopClass) as double:
@@ -457,11 +454,14 @@ class CombatTroop (MonoBehaviour, IGUI, IGameState, IMove):
 		//return -1
 		//attackerStrength = (attacker.Health/attacker.MaxHealth)
 		
+	def terrainCombatModifier(troopObject as TroopClass) as double:
+		return terrainCombatModifier(troopObject, troopObject.OccupiedTerrain.TerrainType)
+		
 	def terrainCombatModifier(troopObject as  UnityEngine.Object, terrain as TerrainScript.TerrainTypeEnum) as double:
 		assert troopObject != null
 		//a = troopObject.GetType()
-		assert MovementTypeTerrainTable[troopObject.GetType()] != null
-		modifier as double = (MovementTypeTerrainTable[troopObject.GetType()] as Boo.Lang.Hash)[terrain]
+		assert DefenceTypeTerrainTable[troopObject.GetType()] != null
+		modifier as double = (DefenceTypeTerrainTable[troopObject.GetType()] as Boo.Lang.Hash)[terrain]
 		return modifier
 	
 	def FarthestWeaponRange() as int:

@@ -6,3 +6,10 @@ Lång tid ladda karta.
 Lång tid att hitta mål med artilleri. Fixat
 4.
 Justera scrollen till lite snabbare
+
+1.
+Versions system
+2.
+Sänk inkomsten.
+3.
+Grupp system

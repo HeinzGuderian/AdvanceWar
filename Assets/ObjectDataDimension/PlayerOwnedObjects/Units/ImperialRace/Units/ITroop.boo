@@ -29,7 +29,7 @@ interface ITroop():
 		get
 		set 
 		
-	Hardness as double: // Max is 1.0 lowest is 0, represent percentage of vechicles
+	softness as double: // Max is 1.0 lowest is 0, represent percentage of vechicles
 		get
 		
 	SoftDefence as int:

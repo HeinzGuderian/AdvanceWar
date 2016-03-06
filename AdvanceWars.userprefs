@@ -1,37 +1,48 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo">
     <Files>
-      <File FileName="Assets\ObjectDataDimension\Terrain\TerrainScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="1" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="1" Column="1" />
-      <File FileName="Assets\ObjectDataDimension\DataScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\TeamScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Scripts\Camera Scripts\OnTouchDown.cs" Line="1" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" Line="14" Column="14" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" Line="154" Column="44" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" Line="1" Column="1" />
       <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\GameStatePostWEB.boo" Line="1" Column="1" />
-      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\LoginScreen.boo" Line="124" Column="46" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Economy\FactoryEconomy.boo" Line="1" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\GueriallRace\GuerillaRace.boo" Line="1" Column="1" />
+      <File FileName="Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" Line="245" Column="11" />
+      <File FileName="Assets\GameplayAspectsDimension\Sight\SightTroop.boo" Line="1" Column="1" />
+      <File FileName="Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" Line="1" Column="1" />
+      <File FileName="Assets\CoreTechnicalSystemsDimension\GUI\GuiScript.boo" Line="439" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-Boo" expanded="True">
             <Node name="CoreTechnicalSystemsDimension" expanded="True">
-              <Node name="GameState" expanded="True" />
-              <Node name="GUI" expanded="True">
-                <Node name="LoginScreen.boo" selected="True" />
+              <Node name="GameState" expanded="True">
+                <Node name="GameState.boo" selected="True" />
               </Node>
-              <Node name="SaveLoadMultiplayer" expanded="True">
-                <Node name="Web" expanded="True" />
-              </Node>
+              <Node name="GUI" expanded="True" />
+            </Node>
+            <Node name="GameplayAspectsDimension" expanded="True">
+              <Node name="Combat" expanded="True" />
+              <Node name="Sight" expanded="True" />
             </Node>
             <Node name="ObjectDataDimension" expanded="True">
+              <Node name="PlayerOwnedObjects" expanded="True">
+                <Node name="Units" expanded="True">
+                  <Node name="GueriallRace" expanded="True" />
+                  <Node name="ImperialRace" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Terrain" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-firstpass" expanded="True">
+            <Node name="Standard Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="General Scripts" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -41,13 +52,9 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>this._gameState._currentTurn</Value>
-          <Value>this._gameState.WhosTurn</Value>
-          <Value>this._gameState._currentTurn</Value>
-          <Value>this._gameState.WhosTurn</Value>
-          <Value>this._gameState._currentTurn</Value>
-          <Value>dataToTransmit.table[1].value</Value>
-          <Value>troop</Value>
+          <Value>_actionPoints</Value>
+          <Value>_testInfantryTroop.ActionPoints</Value>
+          <Value>_targetTroop.ActionPoints</Value>
         </State>
       </Pad>
     </Pads>
@@ -57,12 +64,15 @@
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\GameStateSaveLoad.boo" line="153" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GameState\LibraryScript.boo" line="106" />
       <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Serialise\SaveLoadGameSerialisable.boo" line="238" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\ObjectDataDimension\Terrain\TerrainScript.boo" line="390" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="162" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="173" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Move\MoveTestTroop.boo" line="209" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="126" />
-      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\Web\PostWEB.boo" line="223" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\TroopScriptSaveLoadMultiplayer.boo" line="100" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\SaveLoadMultiplayer\TroopScriptSaveLoadMultiplayer.boo" line="103" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Economy\PlayerEconomy.boo" line="75" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" line="217" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\CoreTechnicalSystemsDimension\GameState\GameState.boo" line="211" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" line="249" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\ObjectDataDimension\PlayerOwnedObjects\Units\TroopClass.boo" line="250" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="399" />
+      <Breakpoint file="E:\Project\AdvanceWars\Assets\GameplayAspectsDimension\Combat\CombatTroop.boo" line="299" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

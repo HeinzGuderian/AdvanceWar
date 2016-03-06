@@ -204,10 +204,10 @@ partial public class TroopClass (MonoBehaviour, IHighlight, IGUI, IUseTerrain, I
 		return troopScript
 		
 	def Highlight():
-		renderer.material = materials[1]
+		GetComponent[of Renderer]().material = materials[1]
 		
 	def DeHighlight():
-		renderer.material = materials[0]
+		GetComponent[of Renderer]().material = materials[0]
 		
 	def EndTurnActions():
 		return
@@ -327,19 +327,19 @@ partial public class TroopClass (MonoBehaviour, IHighlight, IGUI, IUseTerrain, I
 			else:
 				_entrenched = value
 	[SerializeField]
-	_hardness as double // Max is 1.0 lowest is 0, represent percentage of vechicles
-	Hardness as double:
+	_softness as double // Max is 1.0 lowest is 0, represent percentage of vechicles
+	softness as double:
 		get:
-			return _hardness
+			return _softness
 		set:
 			if(value<0):
 				print("Error: New actionPoint value is under zero!")
-				_hardness = 0
+				_softness = 0
 			elif(value>1):
-				print("Error: New Hardness value is above one!")
-				_hardness = 0
+				print("Error: New softness value is above one!")
+				_softness = 0
 			else:
-				_hardness = value
+				_softness = value
 	[SerializeField]
 	_softDefence as int // Max is 1.0 lowest is 0, represent percentage of vechicles
 	SoftDefence as int:
@@ -545,9 +545,9 @@ static Transform Read(XML xml)
 	*/
 	/*		
 		
-	Hardness as double: // Max is 1.0 lowest is 0, represent percentage of vechicles
+	softness as double: // Max is 1.0 lowest is 0, represent percentage of vechicles
 		get:
-			return _hardness
+			return _softness
 			
 	SoftDefence as int:
 		get:

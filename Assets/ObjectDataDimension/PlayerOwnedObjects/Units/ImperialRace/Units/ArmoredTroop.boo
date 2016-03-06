@@ -33,7 +33,7 @@ partial class ArmoredTroop (TroopClass ):
 */
 	override def Awake ():
 		_productionCost = 100
-		WeaponList = [WeaponSystem(Name: "Tank Guns", Range: 3, HardDamage: 8, HardMinimumDamage: 5, SoftDamage: 3, SoftMinimumDamage: 1 )
+		WeaponList = [WeaponSystem(Name: "Tank Guns", Range: 3, HardDamage: 8, HardMinimumDamage: 5, SoftDamage: 4, SoftMinimumDamage: 2 )
 						, WeaponSystem(Name: "IFV missiles", Range: 3, HardDamage: 5, HardMinimumDamage: 2, SoftDamage: 0, SoftMinimumDamage: 0 )
 						, WeaponSystem(Name: "IFV Cannon", Range: 2, HardDamage: 3, HardMinimumDamage: 1, SoftDamage: 4, SoftMinimumDamage: 2)
 						, WeaponSystem(Name: "Company Mortar", Range: 4, HardDamage: 1, HardMinimumDamage: 0, SoftDamage: 4, SoftMinimumDamage: 2)
